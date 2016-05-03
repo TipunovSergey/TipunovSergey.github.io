@@ -1,24 +1,60 @@
-
 body {
     background-color: #efefef;
-    font-style: 13px;
+
     }
 
-.about {
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 20px;
-    padding-left: 60px;
-    height: 753px;
+.all {
     width: 515px;
     background-color: #ffffff;
-    font-style: 13px;
-}
+    margin: auto;
+    padding-top:50px;
 
-.logo {
+
+}
+h1{
     text-align: center;
+    font-size: 17px;
+}
+.logo img {
+    display: block;
+    margin: 19px auto;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    border-radius: 5%;
+    }
+.work{
+    margin-right: 50px;
+    margin-left: 50px;
+    border-bottom: 2px solid gray;
+    padding-bottom:22px;
+}
+.why{
+    margin-right: 50px;
+    margin-left: 50px;
+    border-bottom: 2px solid gray;
+    padding-top: 30px;
+
 }
 
-hr {
-    width: 414px;
+.phone{
+    margin-right: 50px;
+    margin-left: 50px;
+    padding-top: 30px;
+       }
+.phone a {
+    text-decoration: none;
+    color: black;
+}
+.vk{
+    margin-right: 50px;
+    margin-left: 50px;
+    border-bottom: 2px solid gray;
+    padding-bottom:22px;
+}
+.feedback {
+    margin-right: 50px;
+    margin-left: 50px;
+    padding-top: 30px;
+    padding-bottom: 70px;
 }
