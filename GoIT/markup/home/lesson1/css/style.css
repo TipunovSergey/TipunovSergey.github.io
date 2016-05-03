@@ -1,0 +1,24 @@
+
+body {
+    background-color: #efefef;
+    font-style: 13px;
+    }
+
+.about {
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    padding-left: 60px;
+    height: 753px;
+    width: 515px;
+    background-color: #ffffff;
+    font-style: 13px;
+}
+
+.logo {
+    text-align: center;
+}
+
+hr {
+    width: 414px;
+}
