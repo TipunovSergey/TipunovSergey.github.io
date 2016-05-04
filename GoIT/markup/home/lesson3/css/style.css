@@ -99,3 +99,31 @@ body {
     color: black;
     background-color: #f9f9f9;
 }
+
+.box{
+    width: 678px;
+    height: 400px;
+    margin-top: 40px;
+    float: right;
+    background-color: #ffffff;
+    border: 1px solid #c8c8c8;
+}
+
+.box img{
+    width: 500px;
+    height: 307px;
+    margin: 47px 89px;
+    
+}
+
+.text{
+    font-size: 13.33px;
+    width: 678px;
+    height: 141px;
+    margin-top: 24px;
+    margin-top: 24px;
+    margin-left: 24px;
+    margin-right: 77px;
+    float: right;
+    position: absolute;
+}
