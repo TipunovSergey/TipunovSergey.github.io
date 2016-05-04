@@ -31,6 +31,7 @@ body {
     width: auto;
     height: 40px;
     margin-top: 40px;
+    background: -webkit-linear-gradient(bottom, #444343 0%, #5e5e5e 100%);
     background: linear-gradient(0deg, #444343 0%, #5e5e5e 100%);
     
    
@@ -39,7 +40,6 @@ body {
 
 .top_menu li{
     margin-left: 25px;
-   
     float: left;
     list-style: none;
     
@@ -54,16 +54,48 @@ body {
     line-height: 40px;
     padding-right: 89px;
     font-size: 13,33px;
+   
     
    
 }
 
 .top_menu a:hover{
     background: -webkit-linear-gradient(90deg, #2e2e2e 0%, #4a4a4a 100%);
-    background: -moz-linear-gradient(90deg, #2e2e2e 0%, #4a4a4a 100%);
-    background: -o-linear-gradient(90deg, #2e2e2e 0%, #4a4a4a 100%);
-    background: -ms-linear-gradient(90deg, #2e2e2e 0%, #4a4a4a 100%);
+    background: -webkit-linear-gradient(bottom, #2e2e2e 0%, #4a4a4a 100%);
     background: linear-gradient(0deg, #2e2e2e 0%, #4a4a4a 100%);
     border-left: 1px solid #838383;
     border-right: 1px solid #838383;
+}
+
+.left_menu{
+    width: 240px;
+    height: 240px;
+    background-color: #ffffff;
+    float: left;
+    margin-top: 40px;
+}
+
+.left_menu li{
+    
+   
+    list-style: none;
+    border: 1px solid #c8c8c8;
+     padding-left: 22px;
+   
+    
+}
+.left_menu a{
+    display: blocks;
+    text-decoration: none;
+    color: black;
+    border: none;
+    font-size: 13,3px;
+    color: #656363;
+    line-height: 39px;
+   
+}
+.left_menu a:hover{
+    padding-left: 13px;
+    color: black;
+    background-color: #f9f9f9;
 }
