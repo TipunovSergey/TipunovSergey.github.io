@@ -118,12 +118,10 @@ body {
 
 .text{
     font-size: 13.33px;
-    width: 678px;
+    width: 625px;
     height: 141px;
-    margin-top: 24px;
+   
     margin-top: 24px;
     margin-left: 24px;
-    margin-right: 77px;
     float: right;
-    position: absolute;
-}
+    }
