@@ -83,6 +83,8 @@ body {
     list-style: none;
     border: 1px solid #c8c8c8;
 }
+/* .left_menu li:last-child{
+    border-bottom: 1px solid #c8c8c8; */
 
 .left_menu a {
     display: block;
@@ -159,4 +161,7 @@ body {
     line-height: 40px;
     font-size: 13, 3px;
     padding-right: 39px;
+}
+li {
+    
 }
