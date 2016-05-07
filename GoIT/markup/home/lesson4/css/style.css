@@ -20,7 +20,7 @@ body {
 }
 
 .logo {
-    position: fixed;
+    position: absolute;
     margin-top: 11px;
     margin-left: 28px;
     height: 164px;
@@ -38,21 +38,37 @@ body {
 
 .contact {
     float: right;
+    color: rgba(18, 138, 167, 0.8);
+    padding-top: 11px;
+    padding-bottom: 20px;
+    padding-right: 30px;
+}
+
+.contact a {
     font-size: 12px;
-    line-height: 19px;
+    line-height: 16px;
+    color: rgba(18, 138, 167, 0.8);
+    text-decoration: none;
 }
 
 .country {
-    position: fixed;
+    clear: both;
+    position: relative;
     overflow: hidden;
     float: right;
     width: 324px;
+    padding-right: 34px;
+}
+
+.country img {
+    width: 42px;
+    height: 42px;
 }
 
 .country li {
     list-style: none;
     float: left;
-    margin-right: 16px;
+    margin-right: 9px;
     text-align: center;
 }
 
@@ -60,7 +76,7 @@ body {
     font-size: 10px;
 }
 
-.country p {
+.country ul>p {
     padding-top: 4px;
 }
 
@@ -128,6 +144,7 @@ body {
 .top-menu ul.submenu > li {
     display: block;
     padding-left: 0px;
+    text-align: left;
 }
 
 .top-menu ul.submenu > li > a {
@@ -135,6 +152,7 @@ body {
     width: 150px;
     color: white;
     text-decoration: none;
+    padding-left: 10px;
 }
 
 .top-menu ul.submenu > li > a:hover {
@@ -144,14 +162,31 @@ body {
 .top-menu ul > li:hover > ul.submenu {
     display: block;
 }
-.content {
-	width: 1000px;
-}
+
 .content {
     width: 1000px;
-    overflow: hidden; /* чтобы лишее обрезалось */
-    font-size: 14px;
 }
+
+.content {
+    width: 1000px;
+    overflow: hidden;
+    /* чтобы лишее обрезалось */
+}
+
+.content p {
+    font-size: 14px;
+    color: #707771;
+    padding: 15px;
+    line-height: 20px;
+    padding-top: 8px;
+}
+
+.content h3 {
+    color: #707771;
+    text-align: center;
+    padding-top: 12px;
+}
+
 .leftColumn {
     width: 209px;
     float: left;
@@ -159,6 +194,7 @@ body {
     padding-bottom: 20000px;
     margin-bottom: -20000px;
 }
+
 .centerColumn {
     width: 582px;
     float: left;
@@ -166,10 +202,18 @@ body {
     padding-bottom: 20000px;
     margin-bottom: -20000px;
 }
+
 .rightColumn {
     width: 209px;
     float: left;
     background: #edeef0;
     padding-bottom: 20000px;
     margin-bottom: -20000px;
+}
+
+.copyright {
+    font-size: 12px;
+    text-align: center;
+    line-height: 30px;
+    color: #cee3ec;
 }
