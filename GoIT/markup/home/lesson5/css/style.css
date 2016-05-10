@@ -1,0 +1,51 @@
+@neomulic
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0 auto;
+    background-image: url(../img/background.png);
+    width: 1215px;
+    height: 1064px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.menu {
+    
+   
+   
+   
+
+    height: 36px;
+    width: auto;
+    float: right;	
+}
+.menu ul {
+    list-style: none;
+    
+   
+    
+    
+    
+}
+.menu li{
+   
+    line-height: 36px;
+    
+}
+
+.menu ul>li>a{
+    
+    display: block;
+    text-decoration: none;
+    color: #fefefe;
+    font-family: Tahoma;
+    font-size: 14px;
+    clear: both;
+    
+}
+.menu ul>li>a:hover{
+
+    background-color: #4eabda;
+}
