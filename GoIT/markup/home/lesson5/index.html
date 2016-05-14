@@ -3,54 +3,65 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Lesson5</title>
+    <title>Lesson 5</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-<div class="wraper">
     <div class="header">
-        <div class="menu">
-            <ul class="section-left">
-                <li><a href="">Meu YouBike</a></li>
 
-
-                <li><a href="">Vender</a></li>
-
-
-                <li><a href="">Forum</a></li>
-
-                <li><a href="">Contato</a></li>
-
-                <li><a href="">Ajuda</a></li>
-                <li><a href="">Minhas Ofertas</a></li>
-            </ul>
-            <ul class="section-center">
-                <li><a href="#">Minhas Ofertas</a></li>
-            </ul>
-            <ul class="section-right">
-                <li>Ola! <a href="#">Entrar</a> ou <a href="#">Cadastre-se</a></li>
+       <div class="menu">
+             <ul>
+                <li><a href="#">Meu YouBike</a></li>
+                <li><a href="#">Vender</a></li>
+                <li><a href="#">Forum</a></li>
+                <li><a href="#">Contato</a></li>
+                <li><a href="#">Ajuda</a></li>
+                <li class="second-menu"><a href="#">Minhas Ofertas</li>
+                <li class="last-menu">Ola! <a href="#">Entar</a> ou <a href="#">Cadastre-se</a></li>
             </ul>
         </div>
     </div>
-    <div class="form">
-        <div class="name-form">
-            <span>Cadastre-se</span>
-        </div>
-        <input type="text" class="first-name" placeholder="First Name">
-        <input type="text" class="last-name" placeholder="Last Name">
-        <input type="email" class="email" placeholder="Email Address">
-        <input type="password" class="password" placeholder="Choose Password">
-        <input type="password" class="password" placeholder="Password Confirm">
-        <input type="checkbox" class="send-updates">
-        <div>Send me Youbike updates and tips</div>
-        <input type="button" class="button" value="Create my Account">
-    <span>By clicking the button above, you agree to the Terms of Service
-Xiew our Privacy Policy.</span>
 
+    <div class="wrapper">
+        <div class="form">
+            <div class="form-head"><span>Cadastre-se</span></div>
+            <form>
+                <div class="facebook-aut">
+                    <button class="logo-facebook">f</button>
+                    <button class="facebook"><span>Log In</span> with <span>Facebook</span></button>
+
+                </div>
+                <div class="ou">OU</div>
+                <div class="form-textBox">
+                    <div>
+                        <input name="FirstName" placeholder="First Name">
+                    </div>
+                    <div>
+                        <input name="LastName" placeholder="Last Name">
+                    </div>
+                    <div>
+                        <input name="Email" placeholder="Email Address">
+                    </div>
+                    <div>
+                        <input name="ChoosePassword" placeholder="Choose Password">
+                    </div>
+                    <div>
+                        <input name="PasswordConfirm" placeholder="Password Confirm">
+                    </div>
+                </div>
+                <div class="checkbox">
+                    <input name="checkbox" type="checkbox"><span>Send me your bike updates and tips</span></div>
+                <button class="crateMyAccount">Create my account</button>
+                <div class="text-end-form">
+                    <p>By clicking the button above, you agree to the Terms of Service</p>
+                    <p>Xiev our Policy.</p>
+                </div>
+            </form>
+        </div>
 
     </div>
-</div>
+
 </body>
 
 </html>
