@@ -1,51 +1,48 @@
-@neomulic
-*{
+* {
     margin: 0;
     padding: 0;
 }
-body{
+@font-face {
+    font-family: 'helveticaneuecyrlight';
+    src: url('../font/helveticaneuecyr-light-webfont.woff2') format('woff2'),
+    url('../font/helveticaneuecyr-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+body {
     margin: 0 auto;
-    background-image: url(../img/background.png);
     width: 1215px;
     height: 1064px;
+    background-image: url('../img/Background.png');
     background-repeat: no-repeat;
-    background-position: center;
+    font-family: "helveticaneuecyrlight", Tahoma, sans-serif;
 }
-.menu {
-    
-   
-   
-   
 
-    height: 36px;
-    width: auto;
-    float: right;	
+
+.menu a{
+    display: block;
+    float: left;
 }
-.menu ul {
-    list-style: none;
-    
-   
-    
-    
-    
+.section-left {
+
 }
 .menu li{
-   
-    line-height: 36px;
-    
-}
+    list-style: none;
 
-.menu ul>li>a{
-    
-    display: block;
+}
+.menu a{
     text-decoration: none;
-    color: #fefefe;
-    font-family: Tahoma;
-    font-size: 14px;
-    clear: both;
-    
-}
-.menu ul>li>a:hover{
 
-    background-color: #4eabda;
+}
+.form{
+    position: relative;
+    clear: both;
+    width: 560px;
+    height: 613px;
+    background-color: rgba(0,0,0,.65);
+
+    margin: auto;
+    z-index: 1;
+
 }
