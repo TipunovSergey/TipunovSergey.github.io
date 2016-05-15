@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+
+    height: 1310px;
+    background-color: #fff;
+    font-family: Arial, tahoma, sans-serif;
+}
+.wrapper{
+    width: 1000px;
+    margin: 0 auto;
+}
+.header-menu{
+    width: 1000px;
+    height: 27px;
+    margin-top: 17px;
+    overflow:hidden;
+   
+   
+   }
+
+.phone img{
+    width: 21px;
+    height: 21px;
+    background-color: #103d62;
+    border-radius: 50%;
+    margin-left: 52px;
+    margin-top: 22px;
+    float: left;
+    position: absolute;
+}
+
+.phone-number{
+   
+    
+}
+.phone-number a{
+    float: left;
+    text-decoration: none;
+    font-size: 18px;
+    color: #5e696d;
+}
+.login-form{
+    float: left;
+    height: 27px;
+    width: 496px;
+    background-color: #1d6181;
+    box-shadow: 1px 3px 3px 0.00px rgba(150, 150, 150, 0.75);
+}
+.login-form ul li{
+    float: left;
+    list-style: none;
+    
+    
+}
+.login-form a{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    font-size: 11px;
+}
+.login-form input{
+    height: 16px;
+    width: 113px;
+}
+.header-icon{
+    height: 21px;
+    width: 76px;
+    border: 1px solid #c1c8cb;
+}
