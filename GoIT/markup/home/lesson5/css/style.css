@@ -18,27 +18,32 @@ body {
     background-image: url(../img/Background.png);
     background-repeat: no-repeat;
     background-position: center;
-    position: relative;
+    
 }
 
 .menu {
     height: 36px;
 }
 
-menu ul {}
+
 
 .menu li {
     list-style: none;
     padding-left: 26px;
+    margin-right: 20px;
+    margin-right: 20px;
     text-align: center;
-    float: left;
+    float: right;
+    
 }
 
 .menu a {
+    display: inline-block;
     color: #60b5ed;
     font-size: 14px;
     line-height: 36px;
     text-decoration: none;
+    
 }
 
 .menu a:hover {
@@ -49,70 +54,54 @@ menu ul {}
 .second-menu a:before {
     content: "";
     background-image: url(../img/flag.png);
-    overflow: hidden;
-    display: inline-block;
-    width: 25px;
-    height: 27px;
-    margin-right: 10px;
-    top: 3px;
+  background-repeat: no-repeat;
+    background-position: center;
+    padding: 10px;
+    position: relative;
+   
+    
+    
+    border-left: 1px solid #56a2dc;
 }
-
+.last-menu{
+    background-color: #47a0d5;
+    color: #fff;
+}
+.last-menu a{
+    color: #fff;
+    text-decoration: underline;
+}
 .wrapper {
-    width: 50%;
-    position: absolute;
-    top: -25%;
-    left: 50%;
+    width: 1215px;
+    height: 815px;
+    
 }
 
 .form {
+    margin-top: 213px;
+    margin-left: 26.95%;
     width: 560px;
     height: 613px;
     background-color: rgba(0, 0, 0, .6);
     color: white;
-    position: absolute;
-    top: 515px;
-    right: 50%;
-    z-index: 3;
     text-align: center;
+    
 }
 
 .form-head {
     border-bottom: 1px solid #cccec1;
     text-align: center;
-    height: 65px;
+   
 }
 
 .form-head span {
     position: relative;
-    top: 20px;
+    line-height: 65px;
     font-size: 22px;
 }
 
 .facebook-aut{
-    margin-top: 35px;
-}
-
-.facebook-aut {
-    font-weight: bold;
-}
-
-.facebook-aut button {
-    height: 35px;
-    background-color: #38528f;
-    border: 0px;
-    color: white;
-    font-size: 14px;
-}
-
-.facebook-aut .logo-facebook {
-    width: 233px;
-    border-radius: 0 4px 4px 0;
-}
-
-.facebook-aut .F {
-    width: 41px;
-    border-radius: 4px 0 0 4px;
-    border-right: 1px solid #1f3d71;
+    padding-top: 35px;
 }
 
 .ou:after,
@@ -127,37 +116,36 @@ menu ul {}
     vertical-align: middle;
 }
 
-.ou {
-    display: inline-block;
-}
 
-.form-textBox input {
-    width: 265px;
+.form-textbox input {
+    width: 276px;
     height: 35px;
-    float: left;
-    margin-left: 140px;
-    margin-bottom: 18px;
-    padding-left: 10px;
-    background-color: #000;
-    color: white;
+    margin-bottom: 20px;
+    background-color: #0f0f0f;
+    box-shadow: 0px 1px 0px 0.00px #4b4b4b;
     border: 0;
-    border-bottom: 1px solid grey;
+    color: #ccc;
+    
+}
+::-webkit-input-placeholder {
+    padding: 2px 12px;
+    font-size: 14px;
 }
 
-.form-textBox input:focus {
-    -webkit-box-shadow: 0px 0px 25px 0px rgba(71, 132, 171, 1);
-    -moz-box-shadow: 0px 0px 25px 0px rgba(71, 132, 171, 1);
-    box-shadow: 0px 0px 25px 0px rgba(71, 132, 171, 1);
+.form-textbox input:focus{
+    
+-webkit-box-shadow: 0px 0px 5px 2px rgba(59,107,139,0.78);
+-moz-box-shadow: 0px 0px 5px 2px rgba(59,107,139,0.78);
+box-shadow: 0px 0px 5px 2px rgba(59,107,139,0.78);
     background-color: #1b5288;
-    color: white;
+    
 }
 
-.checkbox {
-    margin-left: 140px;
-}
+
 
 .checkbox span {
     margin-left: 7px;
+    font-size: 14px;
 }
 
 .crateMyAccount {
@@ -165,7 +153,7 @@ menu ul {}
     height: 35px;
     margin: 14px auto;
     background-color: #4ba7d8;
-    color: white;
+    color: #fff;
     border-radius: 4px;
 }
 
