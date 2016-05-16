@@ -8,65 +8,145 @@ body{
     background-color: #fff;
     font-family: Arial, tahoma, sans-serif;
 }
+@font-face {
+    font-family: 'Lucida Sans Unicode';
+    src: url('../font/lucida_sans_unicode_regular-webfont.woff2') format('woff2'),
+    url('../font/lucida_sans_unicode_regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
 .wrapper{
-    width: 1000px;
     margin: 0 auto;
+    width: 1000px;
+height: 1310px;
 }
 .header-menu{
-    width: 1000px;
-    height: 27px;
-    margin-top: 17px;
-    overflow:hidden;
-   
-   
-   }
-
-.phone img{
+    overflow: hidden;
+    float: left;
+}
+.phone-icon img{
     width: 21px;
     height: 21px;
-    background-color: #103d62;
+    background: #f10000 linear-gradient(to top, #206988 0%, #114165 59%, #0c3256 100%);
     border-radius: 50%;
     margin-left: 52px;
     margin-top: 22px;
-    float: left;
-    position: absolute;
+}
+.phone-number{
+    width: 264px;
+height: 17px;
+
 }
 
-.phone-number{
-   
-    
-}
 .phone-number a{
-    float: left;
     text-decoration: none;
-    font-size: 18px;
     color: #5e696d;
+font-size: 18px;
+font-weight: 400;
+line-height: 25px;
 }
+
 .login-form{
-    float: left;
-    height: 27px;
-    width: 496px;
-    background-color: #1d6181;
-    box-shadow: 1px 3px 3px 0.00px rgba(150, 150, 150, 0.75);
+    width: 495px;
+height: 26px;
+background-color: #b1bcc0;
+background-image: linear-gradient(180deg, #206988 0%, #114165 59%, #0c3256 100%);
+border-radius: 3px;
+box-shadow: 1.5px 2.6px 3px rgba(150, 150, 150, 0.75);
 }
-.login-form ul li{
-    float: left;
-    list-style: none;
-    
-    
-}
-.login-form a{
-    display: inline-block;
-    text-decoration: none;
-    color: #fff;
-    font-size: 11px;
+
+
+.login-form img{
+    width: 14px;
+    height: 18px;
+    padding-left: 7px;
+    padding-top: 4px;
+    padding-bottom: 4px;
 }
 .login-form input{
-    height: 16px;
-    width: 113px;
+    width: 115px;
+    height: 18px;
+    background-color: white;
+    border: 1px solid #9ba1a3;
+    padding-top: 3px;
+    padding-bottom: 5px;
 }
-.header-icon{
+::-webkit-input-placeholder{
+    width: 37px;
+height: 8px;
+    color: #97a2a6;
+    font-family: 'Lucida Sans Unicode';
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 25px;
+    padding-left: 5px;
+    padding-bottom: 6px;
+    padding-top: 6px;
+
+}
+.login-form li{
+    list-style: none;
+
+}
+.login-form a{
+    color: white;
+    font-family: 'Lucida Sans Unicode';
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 25px;
+}
+.icon {
+    width: 77px;
     height: 21px;
-    width: 76px;
-    border: 1px solid #c1c8cb;
+    background-color: white;
+    border: 1px solid #bdc4c7;
+}
+
+.top-menu{
+    width: 912px;
+    height: 34px;
+    background-color: white;
+    background-image: linear-gradient(to top, black 0%, #576068 100%);
+    border: 1px solid #0d1642;
+    border-radius: 4px;
+    box-shadow: 1.5px 2.6px 5px rgba(0, 0, 0, 0.75);
+}
+/*
+.baner img{
+    margin-left: 46px;
+    margin-right: 45px;
+}*/
+
+.top-menu li{
+    list-style: none;
+}
+.top-menu a{
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 465px;
+    height: 12px;
+    font-family: 'Lucida Sans Unicode';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #b1bcc0;
+}
+.top-menu a:hover{
+    background-color: #f60303;
+    background-image: linear-gradient(180deg, #206988 0%, #114165 59%, #0c3256 100%);
+    color: #fff;
+}
+.cart span{
+    color: #929b9f;
+    font-family: Arial;
+    font-size: 11px;
+    font-weight: 400;
+}
+.cart a{
+    text-decoration: none;
+    color: #0d5a8f;
+    font-family: Arial;
+    font-size: 12px;
+    font-weight: 400;
 }
