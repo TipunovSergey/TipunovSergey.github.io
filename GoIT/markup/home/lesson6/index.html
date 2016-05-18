@@ -3,12 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <title>Lesson 6</title>
+    <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <div class="wrapper">
-        <header>
-            <div class="header-menu">
+<div class="wrapper">
+    <header>
+        <div class="header-menu">
             <div class="phone-icon">
                 <img src="img/phone-icon.png" alt="">
             </div>
@@ -17,46 +18,141 @@
                 <a href="tel:0445678910">(044) 567-89-10</a>
             </div>
             <div class="login-form">
-               <img src="img/login-logo.png" alt="">
-               <input type="text" name="login" placeholder="логин">
-               <input type="password" name="password" placeholder="пароль">
-               <ul>
-                   <li><a href="#">вход</a></li>
-                   <li><a href="#">регистрация</a></li>
-                   <li><a href="#">забыли пароль?</a></li>
-               </ul>
-                </div>
-                <div class="icon">
-                    <img src="img/home.png" alt="">
-                    <img src="img/map.png" alt="">
-                    <img src="img/mail.png" alt="">
-
-                </div>
-
-            </div>
-            <div class="baner">
-                <img src="img/baner.jpg" alt="">
-            </div>
-            <div class="top-menu">
+                <img src="img/login-logo.png" alt="">
+                <input type="text" name="login" placeholder="логин">
+                <input type="password" name="password" placeholder="пароль">
                 <ul>
+                    <li><a href="#">вход</a></li>
+                    <li><a href="#">регистрация</a></li>
+                    <li><a href="#">забыли пароль?</a></li>
+                </ul>
+            </div>
+            <div class="icon">
+                <img src="img/home.png" alt="">
+                <img src="img/map.png" alt="">
+                <img src="img/mail.png" alt="">
+
+            </div>
+
+        </div>
+        <div class="baner">
+            <img src="img/baner.jpg" alt="">
+        </div>
+        <div class="top-menu">
+            <ul>
                 <li><a href="#">о компании</a></li>
                 <li><a href="#">оплата</a></li>
                 <li><a href="#">доставка</a></li>
                 <li><a href="#">статьи</a></li>
                 <li><a href="#">контакты</a></li>
-                </ul>
+            </ul>
 
+        </div>
+        <div class="cart">
+            <img src="img/cart.png" alt="">
+            <span>товаров:</span>
+            <a href="#">0</a>
+            <span>на сумму:</span>
+            <a href="#">0,00 грн.</a>
+        </div>
+    </header>
+    <div class="search-form-left">
+        <div class="title-form-left">
+            <div>Диски:</div>
+            <div class="title-form-left-header">Поиск по автомобилю</div>
+            <div>Шины:</div>
+        </div>
+        <form action="/" method="get".>
+
+            <div class="left-cols">
+                <div class="text-marka-avto">
+                    Марка <span>авто</span>:
+                </div>
+                <div class="marka-avto"><select name="marka-avto" class="w101">
+                    <option value="option1">1</option>
+                    <option value="option1">2</option>
+                    <option value="option1">3</option>
+                    <option value="option1">4</option>
+                    <option value="option1">5</option>
+                </select></div>
+                <div class="text-model-avto">
+                    Модель <span>автомобиля</span>:
+                </div>
+                <div class="model-avto"><select name="model-avto" class="w101">
+                    <option value="option1">1</option>
+                    <option value="option1">2</option>
+                    <option value="option1">3</option>
+                    <option value="option1">4</option>
+                    <option value="option1">5</option>
+                </select></div>
+                <div class="text-year">
+                    Год выпуска <span>автомобиля</span>:
+                </div>
+                <div class="year-avto"><select name="year-avto" class="w57">
+                    <option value="option1">1</option>
+                    <option value="option1">2</option>
+                    <option value="option1">3</option>
+                    <option value="option1">4</option>
+                    <option value="option1">5</option>
+                </select></div>
+                <div class="text-accessories-avto">
+                    Комплектация:
+                </div>
+                <div class="accessories-avto"><select name="accessories-avto" class="w101">
+                    <option value="option1">1</option>
+                    <option value="option1">2</option>
+                    <option value="option1">3</option>
+                    <option value="option1">4</option>
+                    <option value="option1">5</option>
+                </select></div>
             </div>
-            <div class="cart">
-                <img src="img/cart.png" alt="">
-                <span>товаров:</span>
-                <a href="#">0</a>
-                <span>на сумму:</span>
-                <a href="#">0,00 грн.</a>
+            <div class="right-cols">
+                <div class="text-marka-avto">
+                    Марка <span>авто</span>:
+                </div>
+                <div class="marka-avto"><select name="marka-avto" class="w101">
+                    <option value="option1">1</option>
+                    <option value="option1">2</option>
+                    <option value="option1">3</option>
+                    <option value="option1">4</option>
+                    <option value="option1">5</option>
+                </select></div>
+                <div class="text-model-avto">
+                    Модель <span>автомобиля</span>:
+                </div>
+                <div class="model-avto"><select name="model-avto" class="w101">
+                    <option value="option1">1</option>
+                    <option value="option1">2</option>
+                    <option value="option1">3</option>
+                    <option value="option1">4</option>
+                    <option value="option1">5</option>
+                </select></div>
+                <div class="text-year">
+                    Год выпуска <span>автомобиля</span>:
+                </div>
+                <div class="year-avto"><select name="year-avto" class="w57">
+                    <option value="option1">1</option>
+                    <option value="option1">2</option>
+                    <option value="option1">3</option>
+                    <option value="option1">4</option>
+                    <option value="option1">5</option>
+                </select></div>
+                <div class="text-accessories-avto">
+                    Комплектация:
+                </div>
+                <div class="accessories-avto"><select name="accessories-avto" class="w101">
+                    <option value="option1">1</option>
+                    <option value="option1">2</option>
+                    <option value="option1">3</option>
+                    <option value="option1">4</option>
+                    <option value="option1">5</option>
+                </select></div>
             </div>
-
-        </header>
-
+            <div class="search-button"><a href="#">поиск...</a></div>
+        </form>
     </div>
+
+
+</div>
 </body>
 </html
