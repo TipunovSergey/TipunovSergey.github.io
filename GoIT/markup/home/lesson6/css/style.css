@@ -53,6 +53,7 @@ body {
 .login-form {
     float: left;
     margin-top: 18px;
+    margin-left: 17px;
     width: 495px;
     height: 26px;
     background: #b1bcc0 linear-gradient(180deg, #206988 0%, #114165 59%, #0c3256 100%);
@@ -66,14 +67,23 @@ body {
 }
 
 .login-form input {
-    width: 115px;
-    height: 18px;
+    width: 107px;
+    height: 16px;
     background-color: white;
     border: 1px solid #9ba1a3;
     float: left;
     margin-top: 3px;
-    margin-bottom: 5px;
-    margin-right: 6px;
+    margin-right: 5px;
+    font-size: 11px;
+}
+
+.login-form input[type="text"],
+.login-form input[type="password"] {
+    color: #97a2a6;
+    font-family: 'Lucida Sans Unicode';
+    font-size: 12px;
+    font-weight: 400;
+    padding-left: 7px;
 }
 
 .login-form a {
@@ -81,18 +91,21 @@ body {
     float: left;
     color: #fff;
     font-family: 'Lucida Sans Unicode';
-    font-size: 11px;
+    font-size: 12px;
     font-weight: 400;
-    line-height: 26px;
+    line-height: 25px;
     text-decoration: none;
-    margin-left: 8px;
-    margin-bottom: 8px;
+    margin-left: 3px
 }
 
 .login-form .fogoutpassword {
     text-decoration: underline;
     font-size: 12px;
     color: #bfbfbf;
+    float: right;
+    line-height: 25px;
+    margin-right: 9px;
+    letter-spacing: 1px;
 }
 
 .login-form span {
@@ -102,15 +115,28 @@ body {
     font-size: 11px;
     font-weight: 400;
     line-height: 25px;
+    margin-left: 5px;
+    margin-right: 1px;
 }
 
 .icon {
+    box-shadow: 0px 1px 3px 1px rgba(126, 140, 145, 0.5);
+    border-radius: 19px;
     float: left;
     width: 77px;
     height: 21px;
     border: 1px solid #bdc4c7;
-    border-radius: 20%;
     margin-top: 18px;
+    margin-left: 17px;
+}
+
+.icon img {
+    padding-left: 6px;
+    padding-bottom: 4px;
+}
+
+.baner img {
+    margin-top: 7px;
 }
 
 .top-menu {
@@ -121,52 +147,70 @@ body {
     border-radius: 4px;
     box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.75);
     float: left;
+    margin-bottom: 10px;
 }
 
 .top-menu li {
     list-style: none;
+    display: block;
     float: left;
+    margin-right: 30px;
+    text-align: center;
 }
-.top-menu li:first-child{
-    margin-left: 123px;
+
+.top-menu li:first-child {
+    margin-left: 140px;
 }
 
 .top-menu a {
-    display: block;
     text-decoration: none;
     text-transform: uppercase;
     font-family: 'Lucida Sans Unicode';
     font-size: 14px;
     font-weight: 400;
-    line-height: 34px;
+    line-height: 30px;
     color: #b1bcc0;
     float: left;
-    
 }
 
 .top-menu a:hover {
     background: #f60303 linear-gradient(180deg, #206988 0%, #114165 59%, #0c3256 100%);
     color: #fff;
+    border-radius: 30%;
 }
-.cart {
-	
+
+.cart a:hover {
+    background: #fff linear-gradient(to top, black 0%, #576068 100%);
+    color: #0d5a8f;
 }
 
 .cart span {
+    line-height: 29px;
+    display: block;
     float: left;
     color: #929b9f;
     font-family: Arial;
     font-size: 11px;
     font-weight: 400;
+    margin-left: 7px;
 }
 
 .cart a {
+    margin-left: 5px;
+    line-height: 29px;
     float: left;
     text-decoration: none;
     color: #0d5a8f;
     font-family: Arial;
     font-size: 12px;
     font-weight: 400;
+}
+
+.cart img {
+    float: left;
+    margin-left: 35px;
+    margin-top: 7px;
+    margin-bottom: 9px;
 }
 
 .search-form-left {
@@ -177,37 +221,66 @@ body {
     border: 1px solid #9c9c9d;
     border-radius: 17px;
     box-shadow: 2.6px 4.3px 5px rgba(104, 104, 104, 0.75);
+    margin-left: 5px;
 }
 
 .title-form-left {
-    padding-left: 21px;
-    padding-top: 7px;
-    display: inline-block;
+    display: block;
+    height: 20px;
     color: #154468;
     font-family: Arial;
     font-size: 10px;
-    font-weight: 900;
+    font-weight: bold;
 }
 
-.title-form-left-header {
+h3 {
     color: #154467;
     font-family: Arial;
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 900;
-    text-align: center;
+    float: left;
+    margin-top: -2px;
+    padding-left: 64px;
+}
+
+.title-form-left-left {
+    padding-left: 21px;
+    padding-top: 4px;
+    letter-spacing: 1.2px;
+    float: left;
+    display: block;
+}
+
+.title-form-left-right {
+    float: right;
+    display: block;
+    padding-top: 1px;
+    letter-spacing: 1.2px;
+    padding-right: 21px;
 }
 
 .search-form-left form {
-    width: 54px;
-    height: 9px;
+    float: left;
     font-family: Arial;
     font-weight: 400;
-    line-height: 8px;
     color: #000;
     font-size: 10px;
 }
 
-.search-form-left form span {
+.search-form-left select {
+    margin-bottom: 5px;
+}
+
+.left-cols-text {
+    padding-left: 18px;
+    width: 71px;
+    float: left;
+    color: #000;
+    font-size: 10px;
+    line-height: 8px;
+}
+
+.left-cols-text span {
     color: #77858b;
     font-size: 8px;
 }
