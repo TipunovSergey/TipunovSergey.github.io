@@ -233,7 +233,7 @@ body {
     font-weight: bold;
 }
 
-h3 {
+.search-form-left h3 {
     color: #154467;
     font-family: Arial;
     font-size: 14px;
@@ -269,6 +269,7 @@ h3 {
 
 .search-form-left select {
     margin-bottom: 5px;
+    margin-left: 5px;
 }
 
 .left-cols-text {
@@ -280,9 +281,25 @@ h3 {
     line-height: 8px;
 }
 
-.left-cols-text span {
+.text-marka-avto {
+    padding-top: 7px;
+}
+
+.text-model-avto {
+    padding-top: 7px;
+}
+
+.text-year {
+    padding-top: 6px;
+}
+
+.text-accessories-avto {
+    padding-top: 10px;
+}
+
+. .left-cols-text span {
     color: #77858b;
-    font-size: 8px;
+    font-size: 9px;
 }
 
 .w101 {
@@ -299,19 +316,29 @@ h3 {
     box-shadow: inset 1px 1px 1px rgba(0, 0, 0, 0.75);
 }
 
-.search-button {
-    width: 52px;
-    height: 12px;
+.right-cols-text {
+    margin-top: -4.1px;
+    margin-left: 28px;
+    width: 71px;
+    float: left;
+    color: #000;
+    font-size: 10px;
+    line-height: 8px;
+}
+
+.search-form-left a {
+    padding-right: 23px;
     color: #154467;
+    float: right;
     font-family: Arial;
     font-size: 14px;
     font-style: italic;
-    line-height: 28px;
     text-decoration: underline;
 }
 
 .search-form-centre {
-    margin-left: 14px;
+    margin-left: 12px;
+    margin-top: -2px;
     float: left;
     width: 193px;
     height: 137px;
@@ -322,7 +349,8 @@ h3 {
 }
 
 .search-form-right {
-    margin-left: 10px;
+    margin-left: 8px;
+    margin-top: -2px;
     float: left;
     width: 268px;
     height: 136px;
@@ -332,9 +360,52 @@ h3 {
     box-shadow: 2.6px 4.3px 5px rgba(150, 150, 150, 0.75);
 }
 
+.center-part {
+    margin-top: 15px;
+}
+
 .left-sidebar {
     float: left;
     width: 183px;
+}
+
+.left-sidebar h3 {
+    display: block;
+    float: left;
+    color: #114165;
+    font-family: 'Lucida Sans Unicode';
+    font-size: 13px;
+    background-color: #fff;
+}
+
+.left-sidebar-header {
+    width: 180px;
+    height: 30px;
+    border: 1px solid #79878d;
+    box-shadow: 1.5px 2.6px 3px rgba(150, 150, 150, 0.75);
+    border-radius: 20%;
+}
+
+.left-sidebar-header-logo {
+    width: 20px;
+    float: left;
+    height: 20px;
+    background-color: #124367;
+    border-radius: 50%;
+}
+
+.left-sidebar-header-logo img {
+    margin-left: 3px;
+}
+
+.left-sidebar li {}
+
+.h2 li {
+    width: 150px;
+    display: block;
+    height: 28px;
+    background-color: #fff;
+    border: 1px solid #79878d;
 }
 
 .product {
