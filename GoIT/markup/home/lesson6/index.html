@@ -4,244 +4,243 @@
 <head>
     <meta charset="UTF-8">
     <title>Lesson 6</title>
-    <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-    <div class="wrapper clearfix">
+<div class="wrapper clearfix">
 
-        <!--start header-->
+    <!--start header-->
 
-        <header>
-            <div class="header-menu">
-                <div class="clearfix">
-                    <div class="phone-icon">
-                        <img src="img/phone-icon.png" alt="">
-                    </div>
-                    <div class="phone-number">
-                        <a href="tel:0441234567">(044)123-45-67</a>
-                        <a href="tel:0445678910">(044)567-89-10</a>
-                    </div>
-                    <div class="login-form">
-                        <img src="img/login-logo.png" alt="">
-                        <form action="#">
-                            <input type="text" name="login" placeholder="логин">
-                            <input type="password" name="password" placeholder="пароль">
-                        </form>
-                        <a href="#">вход</a>
-                        <span>|</span>
-                        <a href="#">регистрация</a>
-                        <a href="#" class="fogoutpassword">забыли пароль?</a>
-
-                    </div>
-                    <div class="icon">
-                        <a href="#"> <img src="img/home.png" alt=""></a>
-                        <a href="#"> <img src="img/map.png" alt=""></a>
-                        <a href="#"><img src="img/mail.png" alt=""></a>
-
-                    </div>
-                </div>
-
-            </div>
-            <div class="baner">
-                <img src="img/baner1.jpg" alt="" width="909px" height="237px">
-            </div>
+    <header>
+        <div class="header-menu">
             <div class="clearfix">
-                <div class="top-menu">
-                    <ul>
-                        <li><a href="#">о компании</a></li>
-                        <li><a href="#">оплата</a></li>
-                        <li><a href="#">доставка</a></li>
-                        <li><a href="#">статьи</a></li>
-                        <li><a href="#">контакты</a></li>
-                    </ul>
-                    <div class="cart">
-                        <img src="img/cart.png" alt="">
-                        <span>товаров:</span>
-                        <a href="#">0</a>
-                        <span>на сумму:</span>
-                        <a href="#">0,00 грн.</a>
-                    </div>
+                <div class="phone-icon">
+                    <img src="img/phone-icon.png" alt="">
                 </div>
+                <div class="phone-number">
+                    <a href="tel:0441234567">(044)123-45-67</a>
+                    <a href="tel:0445678910">(044)567-89-10</a>
+                </div>
+                <div class="login-form">
+                    <img src="img/login-logo.png" alt="">
+                    <form action="#">
+                        <input type="text" name="login" placeholder="логин">
+                        <input type="password" name="password" placeholder="пароль">
+                    </form>
+                    <a href="#">вход</a>
+                    <span>|</span>
+                    <a href="#">регистрация</a>
+                    <a href="#" class="fogoutpassword">забыли пароль?</a>
 
+                </div>
+                <div class="icon">
+                    <a href="#"> <img src="img/home.png" alt=""></a>
+                    <a href="#"> <img src="img/map.png" alt=""></a>
+                    <a href="#"><img src="img/mail.png" alt=""></a>
+
+                </div>
             </div>
-        </header>
 
-        <!--end header-->
-
-        <!--start search form-->
-
-        <!--left form-->
-
+        </div>
+        <div class="baner">
+            <img src="img/baner1.jpg" alt="" width="909px" height="237px">
+        </div>
         <div class="clearfix">
-            <div class="search-form-left">
-                <div class="title-form-left">
-                    <span class="title-form-left-left">Диски:</span>
+            <nav>
+                <ul>
+                    <li><a href="#">о компании</a></li>
+                    <li><a href="#">оплата</a></li>
+                    <li><a href="#">доставка</a></li>
+                    <li><a href="#">статьи</a></li>
+                    <li><a href="#">контакты</a></li>
+                </ul>
+                <div class="cart">
+                    <img src="img/cart.png" alt="">
+                    <span>товаров:</span>
+                    <a href="#">0</a>
+                    <span>на сумму:</span>
+                    <a href="#">0,00 грн.</a>
+                </div>
+            </nav>
+
+        </div>
+    </header>
+
+    <!--end header-->
+
+    <!--start search form-->
+
+    <!--left form-->
+
+    <div class="clearfix">
+        <div class="search-form-left">
+            <div class="title-form-left">
+                <span class="title-form-left-left">Диски:</span>
                     <span>
                         <h3>Поиск по автомобилю</h3></span>
-                    <span class="title-form-left-right">Шины:</span>
-                </div>
-
-
-                <div class="left-cols">
-                    <div class="left-cols-text">
-                        <div class="text-marka-avto">
-                            Марка <span>авто</span>:
-                        </div>
-                        <div class="text-model-avto">
-                            Модель <span>автомобиля</span>:
-                        </div>
-                        <div class="text-year">
-                            Год выпуска <span>автомобиля</span>:
-                        </div>
-                        <div class="text-accessories-avto">
-                            Комплектация:
-                        </div>
-                    </div>
-
-                    <div class="left-cols-form">
-                        <form action="/" method="get">
-                            <div class="marka-avto">
-                                <select name="marka-avto" class="w101">
-                                    <option value="option1"></option>
-                                    <option value="option1">1</option>
-                                    <option value="option1">2</option>
-                                    <option value="option1">3</option>
-                                    <option value="option1">4</option>
-                                    <option value="option1">5</option>
-                                </select>
-                            </div>
-
-                            <div class="model-avto">
-                                <select name="model-avto" class="w101">
-                                    <option value="option1"></option>
-
-                                    <option value="option1">1</option>
-                                    <option value="option1">1</option>
-                                    <option value="option1">2</option>
-                                    <option value="option1">3</option>
-                                    <option value="option1">4</option>
-                                    <option value="option1">5</option>
-                                </select>
-                            </div>
-                            <div class="year-avto">
-                                <select name="year-avto" class="w57">
-                                    <option value="option1"></option>
-
-                                    <option value="option1">1</option>
-                                    <option value="option1">1</option>
-                                    <option value="option1">2</option>
-                                    <option value="option1">3</option>
-                                    <option value="option1">4</option>
-                                    <option value="option1">5</option>
-                                </select>
-                            </div>
-                            <div class="accessories-avto">
-                                <select name="accessories-avto" class="w101">
-                                    <option value="option1"></option>
-
-                                    <option value="option1">1</option>
-                                    <option value="option1">1</option>
-                                    <option value="option1">2</option>
-                                    <option value="option1">3</option>
-                                    <option value="option1">4</option>
-                                    <option value="option1">5</option>
-                                </select>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-                <div class="left-cols">
-                    <div class="right-cols-text">
-                        <div class="text-marka-avto">
-                            Марка <span>авто</span>:
-                        </div>
-                        <div class="text-model-avto">
-                            Модель <span>автомобиля</span>:
-                        </div>
-                        <div class="text-year">
-                            Год выпуска <span>автомобиля</span>:
-                        </div>
-                        <div class="text-accessories-avto">
-                            Комплектация:
-                        </div>
-                    </div>
-
-                    <div class="right-cols-form">
-                        <form action="/" method="get">
-                            <div class="marka-avto">
-                                <select name="marka-avto" class="w101">
-                                    <option value="option1"></option>
-
-                                    <option value="option1">1</option>
-                                    <option value="option1">1</option>
-                                    <option value="option1">2</option>
-                                    <option value="option1">3</option>
-                                    <option value="option1">4</option>
-                                    <option value="option1">5</option>
-                                </select>
-                            </div>
-
-                            <div class="model-avto">
-                                <select name="model-avto" class="w101">
-                                    <option value="option1"></option>
-
-                                    <option value="option1">1</option>
-                                    <option value="option1">1</option>
-                                    <option value="option1">2</option>
-                                    <option value="option1">3</option>
-                                    <option value="option1">4</option>
-                                    <option value="option1">5</option>
-                                </select>
-                            </div>
-                            <div class="year-avto">
-                                <select name="year-avto" class="w57">
-                                    <option value="option1"></option>
-
-                                    <option value="option1">1</option>
-                                    <option value="option1">1</option>
-                                    <option value="option1">2</option>
-                                    <option value="option1">3</option>
-                                    <option value="option1">4</option>
-                                    <option value="option1">5</option>
-                                </select>
-                            </div>
-                            <div class="accessories-avto">
-                                <select name="accessories-avto" class="w101">
-                                    <option value="option1"></option>
-
-                                    <option value="option1">1</option>
-                                    <option value="option1">1</option>
-                                    <option value="option1">2</option>
-                                    <option value="option1">3</option>
-                                    <option value="option1">4</option>
-                                    <option value="option1">5</option>
-                                </select>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-
-
-                </form>
-                <a href="#">поиск...</a>
+                <span class="title-form-left-right">Шины:</span>
             </div>
 
-            <!--centre form-->
 
-            <div class="search-form-centre"></div>
+            <div class="left-cols">
+                <div class="left-cols-text">
+                    <div class="text-marka-avto">
+                        Марка <span>авто</span>:
+                    </div>
+                    <div class="text-model-avto">
+                        Модель <span>автомобиля</span>:
+                    </div>
+                    <div class="text-year">
+                        Год выпуска <span>автомобиля</span>:
+                    </div>
+                    <div class="text-accessories-avto">
+                        Комплектация:
+                    </div>
+                </div>
 
-            <!--right form-->
+                <div class="left-cols-form">
+                    <form action="/" method="get">
+                        <div class="marka-avto">
+                            <select name="marka-avto" class="w101">
+                                <option value="option1"></option>
+                                <option value="option1">1</option>
+                                <option value="option1">2</option>
+                                <option value="option1">3</option>
+                                <option value="option1">4</option>
+                                <option value="option1">5</option>
+                            </select>
+                        </div>
 
-            <div class="search-form-right"></div>
+                        <div class="model-avto">
+                            <select name="model-avto" class="w101">
+                                <option value="option1"></option>
 
-            <!--end search form-->
+                                <option value="option1">1</option>
+                                <option value="option1">1</option>
+                                <option value="option1">2</option>
+                                <option value="option1">3</option>
+                                <option value="option1">4</option>
+                                <option value="option1">5</option>
+                            </select>
+                        </div>
+                        <div class="year-avto">
+                            <select name="year-avto" class="w57">
+                                <option value="option1"></option>
 
-            <!--start left sidebar-->
+                                <option value="option1">1</option>
+                                <option value="option1">1</option>
+                                <option value="option1">2</option>
+                                <option value="option1">3</option>
+                                <option value="option1">4</option>
+                                <option value="option1">5</option>
+                            </select>
+                        </div>
+                        <div class="accessories-avto">
+                            <select name="accessories-avto" class="w101">
+                                <option value="option1"></option>
+
+                                <option value="option1">1</option>
+                                <option value="option1">1</option>
+                                <option value="option1">2</option>
+                                <option value="option1">3</option>
+                                <option value="option1">4</option>
+                                <option value="option1">5</option>
+                            </select>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="right-cols">
+                <div class="right-cols-text">
+                    <div class="text-marka-avto">
+                        Марка <span>авто</span>:
+                    </div>
+                    <div class="text-model-avto">
+                        Модель <span>автомобиля</span>:
+                    </div>
+                    <div class="text-year">
+                        Год выпуска <span>автомобиля</span>:
+                    </div>
+                    <div class="text-accessories-avto">
+                        Комплектация:
+                    </div>
+                </div>
+
+                <div class="right-cols-form">
+                    <form action="/" method="get">
+                        <div class="marka-avto">
+                            <select name="marka-avto" class="w101r">
+                                <option value="option1"></option>
+
+                                <option value="option1">1</option>
+                                <option value="option1">1</option>
+                                <option value="option1">2</option>
+                                <option value="option1">3</option>
+                                <option value="option1">4</option>
+                                <option value="option1">5</option>
+                            </select>
+                        </div>
+
+                        <div class="model-avto">
+                            <select name="model-avto" class="w101r">
+                                <option value="option1"></option>
+
+                                <option value="option1">1</option>
+                                <option value="option1">1</option>
+                                <option value="option1">2</option>
+                                <option value="option1">3</option>
+                                <option value="option1">4</option>
+                                <option value="option1">5</option>
+                            </select>
+                        </div>
+                        <div class="year-avto">
+                            <select name="year-avto" class="w57r">
+                                <option value="option1"></option>
+
+                                <option value="option1">1</option>
+                                <option value="option1">1</option>
+                                <option value="option1">2</option>
+                                <option value="option1">3</option>
+                                <option value="option1">4</option>
+                                <option value="option1">5</option>
+                            </select>
+                        </div>
+                        <div class="accessories-avto">
+                            <select name="accessories-avto" class="w101r">
+                                <option value="option1"></option>
+
+                                <option value="option1">1</option>
+                                <option value="option1">1</option>
+                                <option value="option1">2</option>
+                                <option value="option1">3</option>
+                                <option value="option1">4</option>
+                                <option value="option1">5</option>
+                            </select>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+
+            </form>
+            <a href="#">поиск...</a>
+        </div>
+
+        <!--centre form-->
+
+        <div class="search-form-centre"></div>
+
+        <!--right form-->
+
+        <div class="search-form-right"></div>
+
+        <!--end search form-->
+
+        <!--start left sidebar-->
         <div class="clearfix"></div>
         <div class="center-part">
-            <div class="left-sidebar">
+            <aside>
 
                 <div class="left-sidebar-header">
                     <div class="left-sidebar-header-logo">
@@ -251,38 +250,38 @@
 
                 </div>
 
-                    <div class="left-sidebar-title">ШИНЫ</div>
-                        <ul>
-                            <li><a href="#">Наименование 1</a></li>
-                            <li><a href="#">Наименование 2</a></li>
-                            <li><a href="#">Наименование 3</a></li>
-                            <li><a href="#">Наименование 4</a></li>
-                        </ul>
+                <div class="left-sidebar-title">ШИНЫ</div>
+                <ul>
+                    <li><a href="#">Наименование 1</a></li>
+                    <li><a href="#">Наименование 2</a></li>
+                    <li><a href="#">Наименование 3</a></li>
+                    <li><a href="#">Наименование 4</a></li>
+                </ul>
 
-                    <div class="left-sidebar-title"> ДИСКИ</div>
-                        <ul>
-                            <li><a href="#">Наименование 1</a></li>
-                            <li><a href="#">Наименование 2</a></li>
-                            <li><a href="#">Наименование 3</a></li>
-                            <li><a href="#">Наименование 4</a></li>
-                        </ul>
+                <div class="left-sidebar-title"> ДИСКИ</div>
+                <ul>
+                    <li><a href="#">Наименование 1</a></li>
+                    <li><a href="#">Наименование 2</a></li>
+                    <li><a href="#">Наименование 3</a></li>
+                    <li><a href="#">Наименование 4</a></li>
+                </ul>
 
-                    <div class="left-sidebar-title">БОЛТЫ </div>
-                        <ul>
-                            <li><a href="#">Наименование 1</a></li>
-                            <li><a href="#">Наименование 2</a></li>
-                            <li><a href="#">Наименование 3</a></li>
-                            <li><a href="#">Наименование 4</a></li>
-                        </ul>
+                <div class="left-sidebar-title">БОЛТЫ</div>
+                <ul>
+                    <li><a href="#">Наименование 1</a></li>
+                    <li><a href="#">Наименование 2</a></li>
+                    <li><a href="#">Наименование 3</a></li>
+                    <li><a href="#">Наименование 4</a></li>
+                </ul>
 
 
-            </div>
+            </aside>
             <!--end left sidebar-->
 
             <!--start content-->
 
             <div class="content">
-                <div class="product clearfix">
+                <main class="clearfix">
                     <div class="product-item1">
                         <p class="product-item-brend">Goodyear</p>
                         <p class="product-item-marka">Ultra Grip Extreme</p>
@@ -290,16 +289,16 @@
                         <p class="product-item-price">90.00 <span>грн.</span></p>
                     </div>
                     <div class="product-item2">
-                        <p class="product-item-brend">Nokian</p>
-                        <p class="product-item-marka">Hakkapeliitta R</p>
-                        <p class="product-item-photo"><img src="img/koleso-2.jpg" alt=""></p>
-                        <p class="product-item-price">115.00 <span>грн.</span></p>
+                        <p class="product-item-brend-nokian">Nokian</p>
+                        <p class="product-item-marka-nokian">Hakkapeliitta R</p>
+                        <p class="product-item-photo-nokian"><img src="img/koleso-2.jpg" alt=""></p>
+                        <p class="product-item-price-nokian">115.00 <span>грн.</span></p>
                     </div>
                     <div class="product-item3">
-                        <p class="product-item-brend">Hankook</p>
-                        <p class="product-item-marka">K 708 155/65 R14 </p>
-                        <p class="product-item-photo"><img src="img/koleso-3.jpg" alt=""></p>
-                        <p class="product-item-price">393.00 <span>грн.</span></p>
+                        <p class="product-item-brend-hankook">Hankook</p>
+                        <p class="product-item-marka-hankook">K 708 155/65 R14 </p>
+                        <p class="product-item-photo-hankook"><img src="img/koleso-3.jpg" alt=""></p>
+                        <p class="product-item-price-hankook">393.00 <span>грн.</span></p>
                     </div>
                     <div class="product-item4">
                         <p class="product-item-brend">Goodyear</p>
@@ -308,16 +307,16 @@
                         <p class="product-item-price">90.00 <span>грн.</span></p>
                     </div>
                     <div class="product-item5">
-                        <p class="product-item-brend">Nokian</p>
-                        <p class="product-item-marka">Hakkapeliitta R</p>
-                        <p class="product-item-photo"><img src="img/koleso-2.jpg" alt=""></p>
-                        <p class="product-item-price">115.00 <span>грн.</span></p>
+                        <p class="product-item-brend-nokian">Nokian</p>
+                        <p class="product-item-marka-nokian">Hakkapeliitta R</p>
+                        <p class="product-item-photo-nokian"><img src="img/koleso-2.jpg" alt=""></p>
+                        <p class="product-item-price-nokian">115.00 <span>грн.</span></p>
                     </div>
                     <div class="product-item6">
-                        <p class="product-item-brend">Hankook</p>
-                        <p class="product-item-marka">K 708 155/65 R14 </p>
-                        <p class="product-item-photo"><img src="img/koleso-3.jpg" alt=""></p>
-                        <p class="product-item-price">393.00 <span>грн.</span></p>
+                        <p class="product-item-brend-hankook">Hankook</p>
+                        <p class="product-item-marka-hankook">K 708 155/65 R14 </p>
+                        <p class="product-item-photo-hankook"><img src="img/koleso-3.jpg" alt=""></p>
+                        <p class="product-item-price-hankook">393.00 <span>грн.</span></p>
                     </div>
                     <div class="product-item7">
                         <p class="product-item-brend">Goodyear</p>
@@ -326,21 +325,21 @@
                         <p class="product-item-price">90.00 <span>грн.</span></p>
                     </div>
                     <div class="product-item8">
-                        <p class="product-item-brend">Nokian</p>
-                        <p class="product-item-marka">Hakkapeliitta R</p>
-                        <p class="product-item-photo"><img src="img/koleso-2.jpg" alt=""></p>
-                        <p class="product-item-price">115.00 <span>грн.</span></p>
+                        <p class="product-item-brend-nokian">Nokian</p>
+                        <p class="product-item-marka-nokian">Hakkapeliitta R</p>
+                        <p class="product-item-photo-nokian"><img src="img/koleso-2.jpg" alt=""></p>
+                        <p class="product-item-price-nokian">115.00 <span>грн.</span></p>
                     </div>
                     <div class="product-item9">
-                        <p class="product-item-brend">Hankook</p>
-                        <p class="product-item-marka">K 708 155/65 R14 </p>
-                        <p class="product-item-photo"><img src="img/koleso-3.jpg" alt=""></p>
-                        <p class="product-item-price">393.00 <span>грн.</span></p>
+                        <p class="product-item-brend-hankook">Hankook</p>
+                        <p class="product-item-marka-hankook">K 708 155/65 R14 </p>
+                        <p class="product-item-photo-hankook"><img src="img/koleso-3.jpg" alt=""></p>
+                        <p class="product-item-price-hankook">393.00 <span>грн.</span></p>
                     </div>
-                </div>
+                </main>
             </div>
             <!-- end content -->
-            <div class="right-sidebar clearfix">
+            <div class="right-sidebar">
 
                 <div class="right-sidebar-header">
                     <div class="right-sidebar-header-logo">
@@ -348,40 +347,39 @@
                         <h3>БРЕНДЫ:</h3>
                     </div>
                 </div>
-                    <div class="right-sidebar-title">ШИНЫ</div>
+                <div class="right-sidebar-title">ШИНЫ</div>
                 <ul>
-                    <input type="checkbox" name="checkbox"><span>Бренд 1</span>
-                    <input type="checkbox" name="checkbox"><span>Бренд 2</span>
-                    <input type="checkbox" name="checkbox"><span>Бренд 3</span>
+                    <input type="checkbox" name="checkbox1"><span>Бренд 1</span><br>
+                    <input type="checkbox" name="checkbox2"><span>Бренд 2</span><br>
+                    <input type="checkbox" name="checkbox3"><span>Бренд 3</span>
                 </ul>
-                    <div class="right-sidebar-title">ДИСКИ</div>
+                <div class="right-sidebar-title2">ДИСКИ</div>
                 <ul>
 
-                    <input type="checkbox" name="checkbox"><span>Бренд 1</span>
-                    <input type="checkbox" name="checkbox"><span>Бренд 2</span>
-                    <input type="checkbox" name="checkbox"><span>Бренд 3</span>
+                    <input type="checkbox" name="checkbox1"><span>Бренд 1</span><br>
+                    <input type="checkbox" name="checkbox2"><span>Бренд 2</span><br>
+                    <input type="checkbox" name="checkbox3"><span>Бренд 3</span>
                 </ul>
                 <div class="right-sidebar-button">
                     <button>ВЫБРАТЬ</button>
                 </div>
 
 
-
-        </div></div>
-
+            </div>
+        </div>
 
 
     </div>
-        <div class="logo-brend">
-        <img src="img/brand/toyo.png" alt="">
-        <img src="img/brand/bridg.png" alt="">
-        <img src="img/brand/cont.png" alt="">
-        <img src="img/brand/04.png" alt="">
-        <img src="img/brand/avon.png" alt="">
-        <img src="img/brand/tire.png" alt="">
-        <img src="img/brand/pire.png" alt="">
-        <img src="img/brand/dunl.png" alt="">
-        </div>
+
+    <img src="img/brand/toyo.png" alt="" class="logo-brend-img1">
+    <img src="img/brand/bridg.png" alt="" class="logo-brend-img2">
+    <img src="img/brand/cont.png" alt="" class="logo-brend-img3">
+    <img src="img/brand/04.png" alt="" class="logo-brend-img4">
+    <img src="img/brand/avon.png" alt="" class="logo-brend-img5">
+    <img src="img/brand/tire.png" alt="" class="logo-brend-img6">
+    <img src="img/brand/pire.png" alt="" class="logo-brend-img7">
+    <img src="img/brand/dunl.png" alt="" class="logo-brend-img8">
+
     <footer>
         <ul class="clearfix">
             <li>
@@ -401,7 +399,7 @@
             Создание сайта © Global Vision</p>
 
     </footer>
-    </div>
+</div>
 </body>
 
 </html>
