@@ -3,10 +3,10 @@
     padding: 0;
 }
 
-.clearfix:after {
-    content: '';
-    clear: both;
+.clearfix::after {
     display: block;
+    clear: both;
+    content: '';
 }
 
 @font-face {
@@ -23,72 +23,69 @@ body {
 }
 
 .wrapper {
-    margin: 0 auto;
     width: 912px;
+    margin: 0 auto;
 }
 
 .phone-icon img {
-    float: left;
     width: 21px;
     height: 21px;
-    background: #f10000 linear-gradient(to top, #206988 0%, #114165 59%, #0c3256 100%);
+    margin: 22px 0 0 7px;
+    float: left;
     border-radius: 50%;
-    margin-left: 7px;
-    margin-top: 22px;
+    background: #f10000 linear-gradient(to top, #206988 0%, #114165 59%, #0c3256 100%);
 }
 
 .phone-number a {
     display: block;
-    margin-top: 21px;
-    margin-left: 3px;
-    float: left;
     height: 26px;
-    text-decoration: none;
+    margin: 21px 0 0 3px;
+    float: left;
     color: #5e696d;
     font-family: Arial;
     font-size: 19px;
     font-weight: 400;
     line-height: 25px;
+    text-decoration: none;
 }
 
 .login-form {
-    float: left;
-    margin-top: 18px;
-    margin-left: 17px;
     width: 495px;
     height: 26px;
-    background: #b1bcc0 linear-gradient(180deg, #206988 0%, #114165 59%, #0c3256 100%);
+    margin: 18px 0 0 17px;
+    float: left;
     border-radius: 3px;
-    box-shadow: 2px 3px 3px rgba(150, 150, 150, 0.75);
+    background: #b1bcc0 linear-gradient(180deg, #206988 0%, #114165 59%, #0c3256 100%);
+    box-shadow: 2px 3px 3px rgba(150, 150, 150, .75);
 }
 
 .login-form img {
-    float: left;
     margin: 4px 3px 4px 7px;
+    float: left;
 }
 
 .login-form input {
     width: 107px;
     height: 16px;
-    background-color: white;
-    border: 1px solid #9ba1a3;
+    margin: 3px 5px 0 0;
     float: left;
-    margin-top: 3px;
-    margin-right: 5px;
+    border: 1px solid #9ba1a3;
+    background-color: #fff;
     font-size: 11px;
 }
 
 .login-form input[type="text"],
 .login-form input[type="password"] {
+    padding-left: 7px;
     color: #97a2a6;
     font-family: 'Lucida Sans Unicode';
     font-size: 12px;
     font-weight: 400;
-    padding-left: 7px;
 }
 
 .login-form a {
     display: block;
+    margin-left: 3px;
     float: left;
     color: #fff;
     font-family: 'Lucida Sans Unicode';
@@ -96,44 +93,40 @@ body {
     font-weight: 400;
     line-height: 25px;
     text-decoration: none;
-    margin-left: 3px
 }
 
 .login-form .fogoutpassword {
-    text-decoration: underline;
-    font-size: 12px;
-    color: #bfbfbf;
-    float: right;
-    line-height: 25px;
     margin-right: 9px;
+    float: right;
+    color: #bfbfbf;
+    font-size: 12px;
     letter-spacing: 1px;
+    line-height: 25px;
+    text-decoration: underline;
 }
 
 .login-form span {
+    margin: 0 1px 0 5px;
     float: left;
     color: #fff;
     font-family: 'Lucida Sans Unicode';
     font-size: 11px;
     font-weight: 400;
     line-height: 25px;
-    margin-left: 5px;
-    margin-right: 1px;
 }
 
 .icon {
-    box-shadow: 0px 1px 3px 1px rgba(126, 140, 145, 0.5);
-    border-radius: 19px;
-    float: left;
     width: 77px;
     height: 21px;
+    margin: 18px 0 0 17px;
+    float: left;
     border: 1px solid #bdc4c7;
-    margin-top: 18px;
-    margin-left: 17px;
+    border-radius: 19px;
+    box-shadow: 0 1px 3px 1px rgba(126, 140, 145, .5);
 }
 
 .icon img {
-    padding-left: 6px;
-    padding-bottom: 4px;
+    padding: 0 0 4px 6px;
 }
 
 .baner img {
@@ -143,19 +136,19 @@ body {
 nav {
     width: 908px;
     height: 34px;
-    background: #fff linear-gradient(to top, black 0%, #576068 100%);
+    margin-bottom: 10px;
+    float: left;
     border: 1px solid #0d1642;
     border-radius: 4px;
-    box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.75);
-    float: left;
-    margin-bottom: 10px;
+    background: #fff linear-gradient(to top, #000 0%, #576068 100%);
+    box-shadow: 2px 3px 5px rgba(0, 0, 0, .75);
 }
 
 nav li {
-    list-style: none;
     display: block;
-    float: left;
     margin-right: 30px;
+    float: left;
+    list-style: none;
     text-align: center;
 }
 
@@ -164,65 +157,63 @@ nav li:first-child {
 }
 
 nav a {
-    text-decoration: none;
-    text-transform: uppercase;
+    float: left;
+    color: #b1bcc0;
     font-family: 'Lucida Sans Unicode';
     font-size: 14px;
     font-weight: 400;
     line-height: 30px;
-    color: #b1bcc0;
-    float: left;
+    text-decoration: none;
+    text-transform: uppercase;
 }
 
 nav a:hover {
+    border-radius: 30%;
     background: #f60303 linear-gradient(180deg, #206988 0%, #114165 59%, #0c3256 100%);
     color: #fff;
-    border-radius: 30%;
 }
 
 .cart a:hover {
-    background: #fff linear-gradient(to top, black 0%, #576068 100%);
+    background: #fff linear-gradient(to top, #000 0%, #576068 100%);
     color: #0d5a8f;
 }
 
 .cart span {
-    line-height: 29px;
     display: block;
+    margin-left: 7px;
     float: left;
     color: #929b9f;
     font-family: Arial;
     font-size: 11px;
     font-weight: 400;
-    margin-left: 7px;
+    line-height: 29px;
 }
 
 .cart a {
     margin-left: 5px;
-    line-height: 29px;
     float: left;
-    text-decoration: none;
     color: #0d5a8f;
     font-family: Arial;
     font-size: 12px;
     font-weight: 400;
+    line-height: 29px;
+    text-decoration: none;
 }
 
 .cart img {
+    margin: 7px 0 9px 35px;
     float: left;
-    margin-left: 35px;
-    margin-top: 7px;
-    margin-bottom: 9px;
 }
 
 .search-form-left {
-    float: left;
     width: 412px;
     height: 132px;
-    background-color: #fff;
+    margin-left: 5px;
+    float: left;
     border: 1px solid #9c9c9d;
     border-radius: 17px;
-    box-shadow: 2.6px 4.3px 5px rgba(104, 104, 104, 0.75);
-    margin-left: 5px;
+    background-color: #fff;
+    box-shadow: 2.6px 4.3px 5px rgba(104, 104, 104, .75);
 }
 
 .title-form-left {
@@ -235,46 +226,43 @@ nav a:hover {
 }
 
 .search-form-left h3 {
+    margin-top: -2px;
+    padding-left: 64px;
+    float: left;
     color: #154467;
     font-family: Arial;
     font-size: 14px;
     font-weight: 900;
-    float: left;
-    margin-top: -2px;
-    padding-left: 64px;
 }
 
 .title-form-left-left {
-    padding-left: 20px;
-    padding-top: 4px;
-    letter-spacing: 1.2px;
-    float: left;
     display: block;
+    padding: 4px 0 0 20px;
+    float: left;
+    letter-spacing: 1.2px;
 }
 
 .title-form-left-right {
-    float: right;
     display: block;
-    padding-top: 1px;
+    padding: 1px 20px 0 0;
+    float: right;
     letter-spacing: 1.2px;
-    padding-right: 20px;
 }
 
 .search-form-left form {
     float: left;
+    color: #000;
     font-family: Arial;
     font-weight: 400;
-    color: #000;
 }
 
 .search-form-left select {
-    margin-bottom: 5px;
-    margin-left: 3px;
+    margin: 0 0 5px 3px;
 }
 
 .left-cols-text {
-    padding-left: 17px;
     width: 71px;
+    padding-left: 17px;
     float: left;
     color: #000;
     font-size: 10px;
@@ -308,25 +296,20 @@ nav a:hover {
     width: 103px;
     height: 17px;
     background-color: #fff;
-    box-shadow: inset 1px 1px 1px rgba(0, 0, 0, 0.75);
+    box-shadow: inset 1px 1px 1px rgba(0, 0, 0, .75);
 }
 
 .w57 {
     width: 58px;
     height: 17px;
     background-color: #fff;
-    box-shadow: inset 1px 1px 1px rgba(0, 0, 0, 0.75);
-}
-
-.search-form-left select {
-    margin-bottom: 5px;
-    margin-left: 3px;
+    box-shadow: inset 1px 1px 1px rgba(0, 0, 0, .75);
 }
 
 .right-cols-text {
-    padding-left: 27px;
-    margin-top: -1px;
     width: 71px;
+    margin-top: -1px;
+    padding-left: 27px;
     float: left;
     color: #000;
     font-size: 10px;
@@ -339,55 +322,52 @@ nav a:hover {
 }
 
 .search-form-left a {
-    padding-top: 2px;
-    padding-right: 23px;
-    line-height: 15px;;
-    color: #154467;
+    padding: 2px 23px 0 0;
     float: right;
+    color: #154467;
     font-family: Arial;
     font-size: 14px;
     font-style: italic;
+    line-height: 15px;
     text-decoration: underline;
 }
 
 .w101r {
-    margin-top: -3px;
     width: 103px;
     height: 17px;
+    margin-top: -3px;
     background-color: #fff;
-    box-shadow: inset 1px 1px 1px rgba(0, 0, 0, 0.75);
+    box-shadow: inset 1px 1px 1px rgba(0, 0, 0, .75);
 }
 
 .w57r {
     width: 58px;
     height: 17px;
-    background-color: #fff;
-    box-shadow: inset 1px 1px 1px rgba(0, 0, 0, 0.75);
     padding-top: 4px;
+    background-color: #fff;
+    box-shadow: inset 1px 1px 1px rgba(0, 0, 0, .75);
 }
 
 .search-form-centre {
-    margin-left: 12px;
-    margin-top: -2px;
-    float: left;
     width: 193px;
     height: 136px;
-    background-color: #fff;
+    margin: -2px 0 0 12px;
+    float: left;
     border: 1px solid #9c9c9d;
     border-radius: 13%;
-    box-shadow: 2.6px 4.3px 5px rgba(150, 150, 150, 0.75);
+    background-color: #fff;
+    box-shadow: 3px 4px 5px rgba(150, 150, 150, .75);
 }
 
 .search-form-right {
-    margin-left: 8px;
-    margin-top: -2px;
-    float: left;
     width: 268px;
     height: 134px;
-    background-color: #fff;
+    margin: -2px 0 0 8px;
+    float: left;
     border: 1px solid #9c9c9d;
     border-radius: 10%;
-    box-shadow: 2.6px 4.3px 5px rgba(150, 150, 150, 0.75);
+    background-color: #fff;
+    box-shadow: 3px 4px 5px rgba(150, 150, 150, .75);
 }
 
 .center-part {
@@ -395,75 +375,68 @@ nav a:hover {
 }
 
 aside {
-    float: left;
     width: 183px;
+    float: left;
 }
 
 aside h3 {
-    margin-top: 3px;
-    margin-left: 3px;
     display: block;
+    margin: 3px 0 0 3px;
     float: left;
+    background-color: #fff;
     color: #114165;
     font-family: 'Lucida Sans Unicode';
     font-size: 12px;
-    background-color: #fff;
 }
 
 .left-sidebar-header {
-    margin-top: 2px;
     width: 180px;
     height: 27px;
+    margin: 2px 0 11px;
     border: 1px solid #79878d;
-    box-shadow: 1.5px 2.6px 3px rgba(150, 150, 150, 0.75);
     border-radius: 20px;
-    margin-bottom: 11px;
-
+    box-shadow: 2px 3px 3px rgba(150, 150, 150, .75);
 }
 
 .left-sidebar-header-logo img {
-
-    float: left;
-    margin-top: 2px;
-    margin-left: 1px;
-    height: 20px;
     width: 20px;
-
+    height: 20px;
+    margin: 2px 0 0 1px;
+    float: left;
 }
 
 .left-sidebar-title {
-    background: url("../img/li-image.png") no-repeat 3% 50%;
+    width: 118px;
+    height: 28px;
     padding-left: 29px;
+    border: 1px solid #79878d;
+    border-radius: 24px;
+    background: url('../img/li-image.png') no-repeat 3% 50%;
     color: #114165;
-    font-family: "Lucida Sans Unicode";
+    font-family: 'Lucida Sans Unicode';
     font-size: 14px;
     font-weight: 400;
     line-height: 28px;
-    border: 1px solid #79878d;
-    border-radius: 24px;
-    width: 118px;
-    height: 28px;
 
 }
 
 aside a {
-    margin-left: -8px;
-    letter-spacing: 0.07em;
+    display: inline-block;
+    position: relative;
+    margin: 0 0 1px -8px;
     color: #465961;
-    font-family: "Lucida Sans Unicode";
+    font-family: 'Lucida Sans Unicode';
     font-size: 13px;
     font-weight: 400;
-    position: relative;
-    display: inline-block;
-    margin-bottom: 1px;
+    letter-spacing: .07em;
 }
 
 aside a:hover {
     color: #0c3256;
     font-family: Arial;
     font-size: 14px;
-    font-weight: 700;
     font-style: italic;
+    font-weight: 700;
     text-decoration: underline;
 }
 
@@ -473,22 +446,17 @@ aside li {
     list-style-type: circle;
 }
 
-main {
-    float: left;
-    width: 526px;
-    height: 627px;
-    background-color: #fff;
-    background-image: linear-gradient(to top, rgba(35, 75, 93, 0.24) 0%, rgba(201, 207, 209, 0.24) 100%);
-    border-radius: 2px;
-}
-
 /*start product*/
 main {
+    width: 526px;
+    height: 627px;
     margin-left: 6px;
-    font-family: "Lucida Sans Unicode";
-    font-weight: 400;
     float: left;
-
+    border-radius: 2px;
+    background-color: #fff;
+    background-image: linear-gradient(to top, rgba(35, 75, 93, .24) 0%, rgba(201, 207, 209, .24) 100%);
+    font-family: 'Lucida Sans Unicode';
+    font-weight: 400;
 }
 
 .product-item1,
@@ -500,50 +468,47 @@ main {
 .product-item7,
 .product-item8,
 .product-item9 {
-    float: left;
     height: 202px;
+    float: left;
 }
 
 /*start product left cols*/
 .product-item-brend {
+    margin: 14px 0 0 58px;
     color: #206988;
     font-size: 15px;
     font-weight: bold;
-    margin-left: 58px;
-    margin-top: 14px;
     line-height: 15px;
 
 }
 
 .product-item-marka {
+    margin-left: 36px;
     color: #1f2528;
     font-size: 13px;
     line-height: 13px;
-    margin-left: 36px;
 }
 
 .product-item-photo {
-    margin-left: 24px;
     width: 135px;
     height: 129px;
-    background-color: white;
+    margin-left: 24px;
     border: 1px solid #a4aeb1;
     border-radius: 7px;
+    background-color: #fff;
 }
 
 .product-item-photo img {
-    margin-left: 30px;
-    margin-top: 4px;
+    margin: 4px 0 0 30px;
 }
 
 .product-item-price {
-    font-family: Arial;
-    font-weight: 700;
-    font-style: italic;
-    font-size: 16px;
+    margin: 1px 0 0 63px;
     color: #114165;
-    margin-left: 63px;
-    margin-top: 1px;
+    font-family: Arial;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 700;
 }
 
 .product-item-price span {
@@ -552,115 +517,106 @@ main {
 
 /*start product center cols*/
 .product-item-brend-nokian {
+    margin: 15px 0 0 75px;
     color: #206988;
     font-size: 15px;
     font-weight: bold;
-    margin-left: 75px;
-    margin-top: 15px;
     line-height: 15px;
 
 }
 
 .product-item-marka-nokian {
+    margin-left: 54px;
     color: #1f2528;
     font-size: 13px;
     line-height: 13px;
-    margin-left: 54px;
 }
 
 .product-item-photo-nokian {
-    margin-left: 31px;
     width: 135px;
     height: 127px;
-    background-color: white;
+    margin-left: 31px;
     border: 1px solid #a4aeb1;
     border-radius: 7px;
+    background-color: #fff;
 }
 
 .product-item-photo-nokian img {
-    margin-left: 30px;
-    margin-top: 4px;
+    margin: 4px 0 0 30px;
 }
 
 .product-item-price-nokian {
-    font-family: Arial;
-    font-weight: 700;
-    font-style: italic;
-    font-size: 16px;
+    margin: 4px 0 0 65px;
     color: #114165;
-    margin-left: 65px;
-    margin-top: 4px;
+    font-family: Arial;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 700;
 }
 
 /*start product right cols*/
 .product-item-brend-hankook {
+    margin: 15px 0 0 69px;
     color: #206988;
     font-size: 15px;
     font-weight: bold;
-    margin-left: 69px;
-    margin-top: 15px;
     line-height: 15px;
 
 }
 
 .product-item-marka-hankook {
+    margin-left: 41px;
     color: #1f2528;
     font-size: 13px;
     line-height: 13px;
-    margin-left: 41px;
 }
 
 .product-item-photo-hankook {
-    margin-left: 31px;
     width: 135px;
     height: 127px;
-    background-color: white;
+    margin-left: 31px;
     border: 1px solid #a4aeb1;
     border-radius: 7px;
+    background-color: #fff;
 }
 
 .product-item-photo-hankook img {
-    margin-left: 28px;
-    margin-top: 4px;
+    margin: 4px 0 0 28px;
 }
 
 .product-item-price-hankook {
-    font-family: Arial;
-    font-weight: 700;
-    font-style: italic;
-    font-size: 16px;
+    margin: 4px 0 0 65px;
     color: #114165;
-    margin-left: 65px;
-    margin-top: 4px;
-
+    font-family: Arial;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 700;
 }
 
 /*start right sidebar*/
 .right-sidebar {
-    float: left;
     width: 183px;
     margin-left: 12px;
+    float: left;
 }
 
 .right-sidebar-header h3 {
-    margin-top: 1px;
-    margin-left: 3px;
     display: block;
+    margin: 1px 0 0 3px;
     float: left;
+    background-color: #fff;
     color: #114165;
     font-family: 'Lucida Sans Unicode';
     font-size: 14px;
     font-weight: 200;
-    background-color: #fff;
 }
 
 .right-sidebar-header {
     width: 179px;
     height: 26px;
     border: 1px solid #79878d;
-    box-shadow: 2px 3px 3px rgba(150, 150, 150, .75);
     border-radius: 20px;
-
+    box-shadow: 2px 3px 3px rgba(150, 150, 150, .75);
 }
 
 .right-sidebar-header-logo {
@@ -668,30 +624,27 @@ main {
 }
 
 .right-sidebar-header-logo img {
-    float: left;
-    height: 22px;
     width: 22px;
-    margin-left: 2px;
-    margin-top: 2px;
+    height: 22px;
+    margin: 2px 0 0 2px;
+    float: left;
 }
 
 .right-sidebar-title,
 .right-sidebar-title2 {
-    background: url("../img/li-image.png") no-repeat 3% 50%;
-    padding-left: 30px;
+    width: 105px;
+    height: 25px;
+    margin: 15px 0 0 12px;
     padding-top: -2px;
+    padding-left: 30px;
+    border: 1px solid #79878d;
+    border-radius: 24px;
+    background: url('../img/li-image.png') no-repeat 3% 50%;
     color: #114165;
-    font-family: "Lucida Sans Unicode";
+    font-family: 'Lucida Sans Unicode';
     font-size: 14px;
     font-weight: 400;
     line-height: 28px;
-    border: 1px solid #79878d;
-    border-radius: 24px;
-    width: 105px;
-    height: 25px;
-    margin-left: 12px;
-    margin-top: 15px;
-
 }
 
 /*right sidebar form*/
@@ -703,22 +656,20 @@ main {
 }
 
 .right-sidebar input[type="checkbox"] {
-    margin-left: 23px;
-    margin-top: 10px;
     width: 10px;
     height: 10px;
-
-    /*background-color: white;*/
+    margin: 10px 0 0 23px;
     border: 1px solid #114165;
-    box-shadow: inset 1px 1px 1px rgba(0, 0, 0, 0.75);
+    background-color: #fff;
+    box-shadow: inset 1px 1px 1px rgba(0, 0, 0, .75);
 }
 
 .right-sidebar span {
-    margin-left: 15px;
     width: 49px;
     height: 62px;
+    margin-left: 15px;
     color: #465961;
-    font-family: "Lucida Sans Unicode";
+    font-family: 'Lucida Sans Unicode';
     font-size: 14px;
     font-weight: 400;
 }
@@ -730,64 +681,54 @@ main {
 .right-sidebar-button button {
     width: 82px;
     height: 26px;
-    background: black linear-gradient(180deg, #206988 0%, #114165 59%, #0c3256 100%);
+    margin: 14px 0 0 23px;
     border: 1px solid #a7abae;
     border-radius: 9px;
+    background: #000 linear-gradient(180deg, #206988 0%, #114165 59%, #0c3256 100%);
     color: #e5e9ea;
     font-family: Arial;
     font-size: 11px;
     font-weight: 400;
-    margin-left: 23px;
-    margin-top: 14px;
 }
 
 .logo-brend-img1 {
-    margin-left: 116px;
-    margin-top: 41px;
+    margin: 41px 0 0 116px;
 }
 
 .logo-brend-img2 {
-    margin-bottom: 5px;
-    margin-left: 6px;
+    margin: 0 0 5px 6px;
 }
 
 .logo-brend-img3 {
-    margin-left: 8px;
-    margin-top: 1px;
+    margin: 1px 0 0 8px;
 }
 
 .logo-brend-img4 {
-    margin-left: 12px;
+    margin: 0 0 0 12px;
 }
 
 .logo-brend-img5 {
-    margin-bottom: 6px;
-    margin-left: 5px;
+    margin: 0 0 6px 5px;
 }
 
 .logo-brend-img6 {
-    margin-left: 8px;
-    margin-top: 20px;
+    margin: 20px 0 0 8px;
 }
 
 .logo-brend-img7 {
-    margin-left: 10px;
-    margin-bottom: 6px;
+    margin: 0 0 6px 10px;
 }
 
 .logo-brend-img8 {
-    margin-left: 9px;
-    margin-bottom: 6px;
+    margin: 0 0 6px 9px;
 }
 
 footer {
-    margin-top: 21px;
-    margin-left: -2px;
-    background-color: #213a4d;
-    border: 1px solid #242a3c;
     width: 910px;
     height: 100px;
-
+    margin: 21px 0 0 -2px;
+    border: 1px solid #242a3c;
+    background-color: #213a4d;
 }
 
 footer ul {
@@ -796,25 +737,24 @@ footer ul {
 }
 
 footer li {
-    border-right: 3px solid #bec6c9;
+    float: left;
+    border-right: 2px solid #bec6c9;
     line-height: 12px;
     list-style: none;
-    float: left;
 }
 
 footer a {
     display: block;
-    padding-right: 11px;
-    padding-left: 13px;
+    padding: 0 11px 0 13px;
+    color: #bec6c9;
     font-family: Arial;
     font-size: 12px;
     font-weight: 400;
-    color: #bec6c9;
     text-decoration: none;
 }
 
 footer li:last-child {
-    border-right: none;
+    border-right: 0;
 }
 
 footer a:hover {
@@ -822,10 +762,9 @@ footer a:hover {
 }
 
 footer p {
+    margin: 16px 0 0 375px;
     color: #7f4740;
     font-family: Arial;
     font-size: 10px;
     font-weight: 400;
-    margin-left: 375px;
-    margin-top: 16px;
 }
