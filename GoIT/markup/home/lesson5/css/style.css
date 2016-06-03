@@ -14,15 +14,17 @@ body {
 
     font-family: 'helveticaneuecyrlight', Tahoma, sans-serif;
 }
-.conteiner{
+
+.conteiner {
+    position: relative;
     background: url('../img/backround.jpg') no-repeat;
     background-size: cover;
-    position: relative;
     overflow: hidden;
 }
+
 .wrapper {
-    margin: 0 auto;
     height: 1028px;
+    margin: 0 auto;
 }
 
 .menu {
@@ -79,10 +81,10 @@ body {
     position: absolute;
     top: 50%;
     left: 50%;
-    margin-top: -307px;
-    margin-left: -280px;
     width: 560px;
     height: 613px;
+    margin-top: -307px;
+    margin-left: -280px;
     background-color: rgba(0, 0, 0, .6);
     color: #fff;
     text-align: center;
@@ -159,9 +161,11 @@ body {
 }
 
 .form-textbox input {
+    display: block;
     width: 276px;
     height: 35px;
     margin-bottom: 20px;
+    margin-left: 142px;
     border: 0;
     background-color: #0f0f0f;
     color: #ccc;
