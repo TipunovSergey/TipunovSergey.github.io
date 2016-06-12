@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,800);
+@import url(https://fonts.googleapis.com/css?family=Geo:400italic);
 * {
     margin: 0;
     padding: 0;
@@ -17,15 +19,14 @@
 }
 
 body {
-
-
     background: url('../img/background_header.jpg') center 0 no-repeat;
-
 }
-header{
+
+header {
     width: 960px;
     margin: 0 auto;
 }
+
 .logo {
     float: left;
     margin-top: 70px;
@@ -39,7 +40,6 @@ header{
     font-size: 48px;
     font-weight: 400;
     line-height: 34px;
-
 }
 
 .logo__end {
@@ -72,17 +72,84 @@ header{
     font-weight: 400;
     line-height: 34px;
     text-transform: uppercase;
-
+    border-bottom: 2px solid transparent;
 }
 
 .menu__link:hover {
     border-bottom: 2px solid #edbfff;
 }
 
-.slider {
+.slider__background {
+    position: absolute;
     width: 100%;
     height: 400px;
     margin-top: 278px;
     opacity: 0.2;
     background-color: black;
+}
+
+.slider {
+    position: relative;
+}
+
+.slider__text {
+    width: 502px;
+    float: left;
+}
+
+.slider__text_h1 {
+    color: #fefefe;
+    font-family: LeagueGothic;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 36px;
+}
+.slider__text_h2 {
+	color: #edbfff;
+font-family: LeagueGothic;
+font-size: 32px;
+font-weight: 400;
+line-height: 36px;
+}
+
+.slider__text_p {
+	color: white;
+font-family: OpenSans;
+font-size: 18px;
+font-weight: 300;
+line-height: 24px;
+}
+
+.slider__img {
+    float: right;
+}
+
+.slider__navi {
+    width: 83px;
+    height: 17px;
+	float: right;
+}
+.slider__navi_link{
+    float: left;  
+    width: 17px;
+    height: 17px;
+    background-image: url(../img/sprite.png);
+    background-position: 0 -1px;
+    
+}
+.slider__navi_link_active {
+
+    float: left;
+    width: 17px;
+    height: 17px;
+    background-image: url(../img/sprite.png);
+    background-position: -22px -1px;
+    
+}
+.slider__navi_link:hover {
+    float: left;
+    width: 17px;
+    height: 17px;
+    background-image: url(../img/sprite.png);
+    background-position: -22px -1px;
 }
