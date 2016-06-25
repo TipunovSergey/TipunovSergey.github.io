@@ -18,7 +18,7 @@
     font-style: normal;
 }
 
-body {}
+
 
 header {
     background: url('../img/background_header.jpg') center 0 no-repeat;
@@ -570,7 +570,7 @@ footer {
 color: white;
 font-family: 'Open Sans';
 font-size: 12px;
-line-height: 114px;
+line-height: 111px;
 font-weight: 300;
 }
 
