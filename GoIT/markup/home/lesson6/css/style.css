@@ -9,7 +9,6 @@
     content: '';
 }
 
-
 @font-face {
     font-family: 'Lucida_Sans_Unicode';
     src: url('../font/lsansuni-webfont.woff2') format('woff2'),
@@ -20,12 +19,9 @@
 
 }
 
-
 body {
     background-color: #fff;
     font-family: 'Lucida_Sans_Unicode', Arial, tahoma, sans-serif;
-
-
 
 }
 
@@ -156,33 +152,37 @@ nav li {
     float: left;
     list-style: none;
     text-align: center;
-}
-nav li:nth-child(1){
-    margin-left: 144px;
-}
-nav li:nth-child(2){
-    margin-left: 24px;
+
 }
 
-nav li:nth-child(3){
-    margin-left: 25px;
+nav li:nth-child(1) {
+    margin-left: 122px;
 }
 
-nav li:nth-child(4){
-    margin-left: 29px;
+nav li:nth-child(2) {
+    margin-left: -25px;
 }
 
-nav li:nth-child(5){
-    margin-left: 25px;
+nav li:nth-child(3) {
+    margin-left: -12px;
 }
 
-nav li>a:hover{
+nav li:nth-child(4) {
+    margin-left: -17px;
+}
+
+nav li:nth-child(5) {
+    margin-left: -20px;
+}
+
+nav li > a:hover {
+    border-radius: 22px;
     background-color: #f60303;
     background-image: linear-gradient(180deg, #206988 0%, #114165 59%, #0c3256 100%);
-    border-radius: 22px;
 }
 
 nav a {
+    padding: 0 22px;
     float: left;
     color: #b1bcc0;
     font-family: 'Lucida_Sans_Unicode';
@@ -205,18 +205,20 @@ nav a {
 }
 
 .cart a {
-    margin-left: 5px;
+    margin-left: -15px;
+    padding-right: 5px;
     float: left;
     color: #0d5a8f;
     font-family: Arial;
     font-size: 13px;
     font-weight: 400;
     line-height: 29px;
-    text-decoration: none;
+    text-transform: lowercase;
+
 }
 
 .cart img {
-    margin: 7px 2px 9px 69px;
+    margin: 7px 2px 9px 47px;
     float: left;
 }
 
@@ -420,7 +422,8 @@ aside h3 {
     float: left;
 }
 
-.left-sidebar-title {
+.left-sidebar-title,
+.left-sidebar-title-2 {
     width: 118px;
     height: 28px;
     padding-left: 29px;
@@ -435,16 +438,17 @@ aside h3 {
 
 }
 
-
 aside a {
     display: inline-block;
     position: relative;
-    margin: 0 0 2px -8px;
+    height: 14px;
+    margin: 5px 0 2px -8px;
     color: #465961;
     font-family: 'Lucida_Sans_Unicode';
     font-size: 13px;
     font-weight: 400;
-    }
+    line-height: 14px;
+}
 
 aside a:hover {
     color: #0c3256;
@@ -452,6 +456,7 @@ aside a:hover {
     font-size: 14px;
     font-style: italic;
     font-weight: 700;
+    line-height: 14px;
     text-decoration: underline;
 }
 
@@ -673,7 +678,7 @@ main {
 .right-sidebar input[type="checkbox"] {
     width: 10px;
     height: 10px;
-    margin: 10px 0 0 0px;
+    margin: 10px 0 0;
     border: 1px solid #114165;
     background-color: #fff;
     box-shadow: inset 1px 1px 1px rgba(0, 0, 0, .75);
@@ -689,7 +694,7 @@ main {
     font-weight: 400;
 }
 
-.right-sidebar span{
+.right-sidebar span {
     margin-left: 10px;
 }
 
