@@ -29,7 +29,6 @@
 }
 aside, nav, footer, header, section { display: block;
 }
-
 header {
     height: 869px;
     background: url('../img/background_header.jpg') center 0 no-repeat;
@@ -38,10 +37,11 @@ header {
 .container {
     width: 960px;
     margin: 0 auto;
+
 }
 
 .logo {
-    margin-top: 60px;
+    margin-top: 70px;
     float: left;
 }
 
@@ -50,7 +50,7 @@ header {
     font-family: 'LeagueGothic', Tahoma, sans-serif;
     font-size: 48px;
     font-weight: 400;
-    line-height: 48px;
+    line-height: 34px;
     text-decoration: none;
     text-shadow: 0 2px 2px rgba(0, 0, 0, .3);
 }
@@ -93,20 +93,27 @@ header {
 }
 
 .slider__background {
-    position: absolute;
+    position: relative;
     width: 100%;
     height: 400px;
-    margin-top: 276px;
+    top: 175px;
     background: rgba(0, 0, 0, .2);
     filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#4c000000,endColorstr=#4c000000);
     zoom: 1;
+    z-index: 0 ;
 }
 
+
+.slider{
+    margin-top: -120px;}
+
+
 .slider__text {
-    top: 361px;
+    position: relative;
+
     width: 510px;
-    margin-top: 246px;
-    margin-left: 0px;
+    margin-top: -54px;
+    margin-left: 3px;
     float: left;
 }
 
@@ -140,8 +147,8 @@ header {
 }
 
 .slider__img {
-    margin-top: 155px;
-    margin-right: 70px;
+    margin-top: -145px;
+    margin-right: 65px;
     float: right;
 }
 
@@ -182,10 +189,8 @@ header {
     width: 100%;
     height: 342px;
     margin-top: -25px;
-    background-image: -moz-linear-gradient(bottom, #322539 0%, #745083 100%);
     background-image: linear-gradient(to top, #322539 0%, #745083 100%);
     filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#714e7f,endColorstr=#35273c);
-    zoom: 1;
 }
 
 .blurbs__left_img {
@@ -224,11 +229,11 @@ header {
 }
 
 .blurbs__center {
-    margin-left: 57px;
+    margin-left: 67px;
 }
 
 .blurbs__right {
-    margin-left: 53px;
+    margin-left: 63px;
 }
 
 .blurbs__left_h2,
@@ -250,13 +255,13 @@ header {
 .blurbs__center_p,
 .blurbs__right_p {
     display: block;
-    width: 226px;
+    width: 220px;
     height: 125px;
-    margin-top: 25px;
+    margin-top: 17px;
     margin-left: 63px;
     color: #fff;
     font-family: 'Open Sans', Tahoma, sans-serif;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 300;
     line-height: 24px;
     text-shadow: 1px 1px 0 #0f1518;
@@ -269,7 +274,7 @@ header {
     display: block;
     width: 67px;
     margin-top: 11px;
-    margin-left: 214px;
+    margin-left: 224px;
     color: #fff;
     font-family: 'LeagueGothic', Tahoma, sans-serif;
     font-size: 18px;
@@ -279,8 +284,8 @@ header {
 
 .blurbs__left_link a:hover,
 .blurbs__center_link a:hover,
-.blurbs__right_link a:hover,
-.blurbs__left_link {
+.blurbs__right_link a:hover
+{
     text-shadow: 0 0 8px rgba(255, 255, 255, .8);
 }
 
@@ -292,7 +297,7 @@ main {
 
 .main__separator {
     position: absolute;
-    top: 1860px;
+    top: 1670px;
     width: 100%;
     height: 1px;
     background-color: #e6e6e6;
@@ -393,42 +398,35 @@ main {
     margin-bottom: 19px;
     color: #454545;
     font-family: 'LeagueGothic', Tahoma, "Open Sans", sans-serif;
-    font-size: 55px;
+    font-size: 25px;
     font-weight: 400;
-    line-height: 35px;
+    line-height: 24px;
     text-shadow: 1px 1px 0 #fff;
 }
 
 .recentupd__block1_img {
-    display: none;
-
     width: 49px;
     height: 49px;
     float: left;
 
-    behavior: url('border-radius.htc');
-    border: solid 1px transparent;
-    border-radius: 50%;
 }
-
 
 .recentupd__block_h4 {
     width: 365px;
-    margin-left: 65px;
+    margin-left: 40px;
     color: #454545;
     font-family: 'Open Sans', Tahoma, sans-serif;
     font-size: 16px;
     font-weight: 700;
     line-height: 24px;
     text-shadow: 1px 1px 0 #fff;
-    background: url("../img/recent_ie.png");
-    background-position: center;
 }
 
 .recentupd__block_p {
-    width: 376px;
-    margin-bottom: 18px;
-    margin-left: 68px;
+    width: 365px;
+    height: 24px;
+    margin-bottom: 0px;
+    margin-left: 40px;
     color: #454545;
     font-family: 'Open Sans', Tahoma, sans-serif;
     font-size: 16px;
@@ -436,10 +434,13 @@ main {
     line-height: 24px;
     text-shadow: 1px 1px 0 #fff;
     word-spacing: -.9px;
+    overflow: hidden;
 }
 
 .recentupd__link {
     float: right;
+    margin-top: 18px;
+    margin-right: -10px;
     color: #454545;
     font-family: 'LeagueGothic', Tahoma, sans-serif;
     font-size: 18px;
@@ -590,7 +591,7 @@ footer {
     font-weight: 700;
 }
 
-@media (max-width: 960px) {
+@media (max-width: 959px) {
     .container {
         width: 728px;
         margin: 0 auto;
@@ -612,14 +613,16 @@ footer {
     }
 
     .slider__background {
-        margin-top: 242px;
+
+        top: 243px;
+        height: 400px;
     }
 
     .slider__text {
-        top: 361px;
+
         width: 310px;
-        margin-top: 162px;
-        margin-left: 25px;
+        margin-top:-65px;
+        margin-left: 24px;
     }
 
     .slider__text_h1 {
@@ -645,17 +648,17 @@ footer {
     }
 
     .slider__img {
-        margin-top: 46px;
+        margin-top: -180px;
         margin-right: 24px;
     }
 
     .slider__navi {
         top: 680px;
-        left: 535px;
+        left: 568px;
     }
 
     .blurbs {
-        margin-top: -73px;
+        margin-top: -72px;
     }
 
     .blurbs__left_img {
@@ -680,6 +683,7 @@ footer {
     .blurbs__left_h2,
     .blurbs__center_h2,
     .blurbs__right_h2 {
+        width: 150px;
         height: 14px;
         font-size: 14px;
         letter-spacing: .07em;
@@ -731,7 +735,7 @@ footer {
     .recentupd {
         width: 300px;
         margin-top: 132px;
-        margin-right: 32px;
+        margin-right: 30px;
     }
 
     .recentupd__block_p {
@@ -742,8 +746,9 @@ footer {
     }
 
     .recentupd__block_h4 {
-        width: 320px;
-        line-height: 16px;
+        margin-left: 66px;
+        width: 260px;
+        line-height: 24px;
     }
 
     .recentupd__link {
@@ -764,7 +769,8 @@ footer {
     }
 
     .thirstfooter__leftcols_h3 {
-        margin-top: 98px;
+        margin-top: 96px;
+        margin-left: 2px;
         font-size: 26px;
     }
 
@@ -791,12 +797,12 @@ footer {
 
     .thirstfooter__rightcols {
         width: 205px;
-        margin-left: 42px;
+        margin-left: 50px;
     }
 
     .thirstfooter__centercols_h4,
     .thirstfooter__rightcols_h4 {
-        margin-top: 102px;
+        margin-top: 100px;
         font-size: 26px;
     }
 
@@ -815,7 +821,7 @@ footer {
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
     header {
         height: 620px;
         background: url('../img/background_header.jpg') center 0 no-repeat;
@@ -842,6 +848,7 @@ footer {
         background-color: #36293e;
         box-shadow: 0 3px 5px rgba(0, 0, 0, .2);
         opacity: .9;
+        z-index: 100;
     }
 
     .menu__item {
@@ -864,8 +871,9 @@ footer {
     }
 
     .slider__background {
+        top: 199px;
         height: 246px;
-        margin-top: 200px;
+
     }
 
     .slider__text {
@@ -874,8 +882,8 @@ footer {
     }
 
     .slider__text_h1 {
-        margin-top: -6px;
-        margin-left: -2px;
+        margin-top: -146px;
+        margin-left: -1px;
         font-size: 17px;
         word-spacing: .2em;
     }
@@ -901,8 +909,8 @@ footer {
     }
 
     .slider__img {
-        margin-top: 85px;
-        margin-right: 10px;
+        margin-top: -57px;
+        margin-right: 8px;
     }
 
     .slider__navi {
@@ -911,6 +919,7 @@ footer {
     }
 
     .blurbs {
+        margin-top: -76px;
         height: 598px;
     }
 
@@ -991,7 +1000,7 @@ footer {
         position: relative;
         width: 345px;
         height: 154px;
-        padding-top: 1650px;
+        top: 825px;
         padding-left: 50px;
         background: url('../img/logos_480.png') no-repeat 100% 50%;
         z-index: 4;
@@ -1065,16 +1074,20 @@ footer {
     }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 479px) {
     .container {
-        width: 280px;
+        width: 279px;
+        overflow: hidden;
+
     }
 
     .logo {
         margin-left: 65px;
+
     }
 
     .menu {
+        width: 60px;
         margin-top: 135px;
         margin-left: 120px;
         border: hidden;
@@ -1100,6 +1113,10 @@ footer {
         display: none;
     }
 
+    .slider__text_h1{
+        margin-top: -7px;
+    }
+
     .slider__text {
         margin-top: 190px;
         margin-left: 50px;
@@ -1115,7 +1132,7 @@ footer {
 
     .slider__navi {
         top: 427px;
-        left: 118px;
+        left: 129px;
     }
 
     .blurbs {
@@ -1266,6 +1283,7 @@ footer {
 
     .footer__copyright {
         width: 148px;
+        height: 14px;
         margin-top: 40px;
         margin-left: 73px;
         line-height: 12px;
