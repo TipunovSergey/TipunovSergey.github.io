@@ -239,7 +239,7 @@ header {
 .blurbs__left_h2,
 .blurbs__center_h2,
 .blurbs__right_h2 {
-    width: 173px;
+    width: 193px;
     height: 22px;
     margin-top: 76px;
     margin-left: 65px;
@@ -591,7 +591,7 @@ footer {
     font-weight: 700;
 }
 
-@media (max-width: 959px) {
+@media screen and (max-width: 959px) {
     .container {
         width: 728px;
         margin: 0 auto;
@@ -614,7 +614,7 @@ footer {
 
     .slider__background {
 
-        top: 243px;
+        top: 113px;
         height: 400px;
     }
 
@@ -653,7 +653,7 @@ footer {
     }
 
     .slider__navi {
-        top: 680px;
+        top: 720px;
         left: 568px;
     }
 
@@ -683,7 +683,7 @@ footer {
     .blurbs__left_h2,
     .blurbs__center_h2,
     .blurbs__right_h2 {
-        width: 150px;
+        width: 160px;
         height: 14px;
         font-size: 14px;
         letter-spacing: .07em;
@@ -720,6 +720,10 @@ footer {
         padding-top: 30px;
         font-size: 24px;
     }
+    .blog_content_h3span{
+        height: 40px;
+        width: 200px;
+    }
 
     .blog__content_p {
         width: 248px;
@@ -739,6 +743,7 @@ footer {
     }
 
     .recentupd__block_p {
+        margin-left: 65px;
         width: 250px;
         height: 20px;
         margin-bottom: 5px;
@@ -760,7 +765,7 @@ footer {
 
     .logos__img_img {
         width: 725px;
-        padding-top: 100px;
+        padding-top: 80px;
         padding-left: 4px;
     }
 
@@ -821,7 +826,7 @@ footer {
     }
 }
 
-@media (max-width: 767px) {
+@media screen and  (max-width: 767px) {
     header {
         height: 620px;
         background: url('../img/background_header.jpg') center 0 no-repeat;
@@ -1074,7 +1079,7 @@ footer {
     }
 }
 
-@media (max-width: 479px) {
+@media  screen and (max-width: 479px) {
     .container {
         width: 279px;
         overflow: hidden;

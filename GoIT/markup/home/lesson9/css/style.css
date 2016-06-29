@@ -176,6 +176,8 @@ header {
     width: 100%;
     height: 342px;
     margin-top: -25px;
+    background-image: -moz-linear-gradient(bottom, #322539 0%, #745083 100%);
+    background-image: -o-linear-gradient(bottom, #322539 0%, #745083 100%);
     background-image: linear-gradient(to top, #322539 0%, #745083 100%);
 }
 
@@ -271,7 +273,7 @@ header {
 .blurbs__left_link a:hover,
 .blurbs__center_link a:hover,
 .blurbs__right_link a:hover
- {
+{
     text-shadow: 0 0 8px rgba(255, 255, 255, .8);
 }
 
@@ -804,8 +806,8 @@ footer {
         margin-top: 55px;
     }
 }
-
-@media (max-width: 767px) {
+@media screen and (max-width: 960px)
+ {
     header {
         height: 620px;
         background: url('../img/background_header.jpg') center 0 no-repeat;
