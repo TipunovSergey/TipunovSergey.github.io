@@ -869,6 +869,7 @@ footer {
 
     .menu__item:hover {
         background: rgba(0, 0, 0, .3);
+        filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#2e2433', endColorstr='#2e2433');
     }
 
     .menu__item:last-child {
@@ -876,7 +877,7 @@ footer {
     }
 
     .slider__background {
-        top: 199px;
+        top: 89px;
         height: 246px;
 
     }
@@ -961,11 +962,14 @@ footer {
     }
 
     .blog {
+
+
         width: 440px;
-        margin-top: -30px;
+        margin-top: 500px;
     }
 
     .blog__content {
+
         width: 416px;
         height: 272px;
         box-shadow: 0 1px 2px rgba(0, 0, 0, .05);
@@ -992,9 +996,12 @@ footer {
         margin-left: 65px;
         float: left;
     }
+main{background-color: #f9f9f9;}
+    main>.container {
+        height: 1491px;
+        background-color: #f9f9f9;
+        margin-top: -500px;
 
-    main {
-        height: 1020px;
     }
 
     .recentupd__link {
@@ -1005,7 +1012,7 @@ footer {
         position: relative;
         width: 345px;
         height: 154px;
-        top: 825px;
+        top: 1325px;
         padding-left: 50px;
         background: url('../img/logos_480.png') no-repeat 100% 50%;
         z-index: 4;
@@ -1062,7 +1069,7 @@ footer {
     }
 
     .menufooter__item {
-        margin-right: 19px;
+        margin-right: 15px;
         margin-left: 5px;
     }
 
@@ -1106,12 +1113,13 @@ footer {
         border: 0;
     }
 
-    .menu__item:nth-child(1) {
+    .menu__item:first-child {
         display: block;
+
     }
 
     .menu__item:hover {
-        background: transparent;
+        background: 0;
     }
 
     .slider__background {
@@ -1141,7 +1149,7 @@ footer {
     }
 
     .blurbs {
-        margin-top: -106px;
+        margin-top: -156px;
 
     }
 
@@ -1153,27 +1161,31 @@ footer {
     .blurbs__center,
     .blurbs__right {
         width: 250px;
-        height: 126px;
+        height: 136px;
+        margin-bottom: 0;
     }
 
     .blurbs__left_h2,
     .blurbs__center_h2,
     .blurbs__right_h2 {
-        margin-top: 69px;
+        margin-top: 19px;
+        letter-spacing: 0;
     }
 
     .blurbs__left_p,
     .blurbs__center_p,
     .blurbs__right_p {
-        width: 196px;
-        height: 69px;
+        width: 176px;
+        height: 79px;
+
     }
 
     .blurbs__left_link a,
     .blurbs__center_link a,
     .blurbs__right_link a {
-        margin-top: 16px;
+        margin-top: 8px;
         margin-left: 222px;
+        margin-bottom: 8px;
     }
 
     .blurbs__center {
@@ -1185,7 +1197,8 @@ footer {
     }
 
     main {
-        height: 1209px;
+        /*margin-top: -300px;*/
+        /*height: 1020px;*/
     }
 
     .main__separator {
@@ -1279,6 +1292,7 @@ footer {
     }
 
     footer {
+        margin-top: 200px;
         height: 200px;
     }
 
